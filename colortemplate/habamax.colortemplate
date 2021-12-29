@@ -35,7 +35,7 @@ Color: color15     #BCBCBC        250            white
 Color: color16     #1C1C1C        234            grey
 Color: color17     #EEEEEE        255            white
 
-Color: colorC      #FF87FF        ~
+Color: colorC      #FFAF87        ~
 Color: colorlC     #5fff00        ~
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
