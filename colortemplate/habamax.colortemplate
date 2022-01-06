@@ -130,7 +130,7 @@ Underlined         color12        none           underline
 Title              color17        none           bold
 Directory          color04        none           bold
 
-Conceal            color07        none
+Conceal            color08        none
 Ignore             none           none
 
 
