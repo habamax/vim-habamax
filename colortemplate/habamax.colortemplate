@@ -60,8 +60,6 @@ ToolbarButton      color00        color02
 
 NonText            color08        none
 
-Folded             color07        colorFold
-
 Visual             color00        color12
 VisualNOS          color00        color12
 LineNr             color07        none
@@ -102,10 +100,14 @@ lCursor            color00        colorlC
 Variant: 16
 ColorColumn        color03        color00        reverse
 CursorLine         none           none           reverse
+Folded             color07        none           bold
+
 
 Variant: gui 256
 ColorColumn        none           color16
 CursorLine         none           color16
+Folded             color07        colorFold
+
 
 
 ;;; :h group-names
