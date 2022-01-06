@@ -35,6 +35,7 @@ Color: color15     #BCBCBC        250            white
 Color: color16     #1C1C1C        234            grey
 Color: color17     #EEEEEE        255            white
 
+Color: colorFold   #303030        236            grey
 Color: colorC      #FFAF5F        ~
 Color: colorlC     #5fff00        ~
 
@@ -59,7 +60,7 @@ ToolbarButton      color00        color02
 
 NonText            color08        none
 
-Folded             color07        none           bold
+Folded             color07        colorFold
 
 Visual             color00        color12
 VisualNOS          color00        color12
@@ -118,9 +119,6 @@ Identifier         color14        none
 Statement          color05        none
 PreProc            color03        none
 Type               color04        none
-; Statement          color03        none
-; PreProc            color04        none
-; Type               color05        none
 
 Special            color06        none
 
