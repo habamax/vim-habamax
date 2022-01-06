@@ -6,7 +6,10 @@ Vim colorscheme with dark background.
 
 Same colors for GUI and TUI with standard 256 color palette support.
 
-.. image:: https://user-images.githubusercontent.com/234774/147635321-8827178a-8d20-4f26-981c-709f19b811c3.png
-.. image:: https://user-images.githubusercontent.com/234774/147635489-1b48a441-1551-4b1d-94f2-c4d6c4450e6f.png
-.. image:: https://user-images.githubusercontent.com/234774/147635627-3b9f22b2-3f78-44c8-a7a4-ac00da95d1fe.png
-.. image:: https://user-images.githubusercontent.com/234774/147635823-9591cc99-758c-432f-b213-075f69a7b4a1.png
+.. image:: https://user-images.githubusercontent.com/234774/148371449-73daa070-e6d2-4549-b0e4-1c7e824ac38e.png
+.. image:: https://user-images.githubusercontent.com/234774/148371774-19709d21-824e-40b4-b624-24f119289515.png
+.. image:: https://user-images.githubusercontent.com/234774/148372036-9a0d0172-8140-4417-8fb2-f83c0fd7c517.png
+.. image:: https://user-images.githubusercontent.com/234774/148372514-ca55a412-8e04-46e3-88af-258f630bec94.png
+
+
+
