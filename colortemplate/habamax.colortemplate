@@ -169,8 +169,8 @@ Color: color17     #000000        16             black
 Color: colorPmenu  #d0d0d0        252            grey
 Color: colorFold   #BCBCBC        250            grey
 Color: colorNonT   #9E9E9E        247            darkgrey
-Color: colorC      #FFAF5F        ~
-Color: colorlC     #5fff00        ~
+Color: colorC      #AF875F        ~
+Color: colorlC     #008700        ~
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -226,7 +226,7 @@ SpellLocal         color13        none           t=underline g=undercurl s=color
 SpellRare          color11        none           t=underline g=undercurl s=color11
 
 Variant: gui
-Cursor             color00        colorC
+Cursor             color15        colorC
 lCursor            color00        colorlC
 
 Variant: 16
