@@ -210,7 +210,7 @@ PmenuSel           color15        color03
 SignColumn         none           none
 
 Error              color01        color15        reverse
-ModeMsg            color00        color11
+ModeMsg            color15        color13
 WarningMsg         color03        none
 MoreMsg            color02        none
 Question           color09        none
