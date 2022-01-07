@@ -32,9 +32,10 @@ Color: color14     #87AFAF        109            cyan
 Color: color07     #949494        246            grey
 Color: color15     #BCBCBC        250            white
 
-Color: color16     #1C1C1C        234            darkgrey
+Color: color16     #000000        16             darkgrey
 Color: color17     #EEEEEE        255            white
 
+Color: colorPmenu  #1C1C1C        234            darkgrey
 Color: colorFold   #303030        236            darkgrey
 Color: colorNonT   #444444        238            darkgrey
 Color: colorC      #FFAF5F        ~
@@ -43,7 +44,6 @@ Color: colorlC     #5fff00        ~
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 
-	
 ;;; chrome
 Variant: gui 256 16
 
@@ -70,7 +70,7 @@ DiffText           color09        none           reverse
 DiffDelete         color01        none           reverse
 DiffChange         color03        none           reverse
 
-Pmenu              none           color16
+Pmenu              none           colorPmenu
 PmenuThumb         none           color07
 PmenuSbar          none           none
 PmenuSel           color00        color03
@@ -78,7 +78,6 @@ PmenuSel           color00        color03
 SignColumn         none           none
 
 Error              color01        color00        reverse
-ErrorMsg           color01        color00        reverse
 ModeMsg            color00        color11
 WarningMsg         color03        none
 MoreMsg            color02        none
@@ -134,7 +133,142 @@ Conceal            color08        none
 Ignore             none           none
 
 
+
+
+
+Background: light
+
+;;; Color palette
+Color: color00     #262626        235            black
+Color: color08     #626262        241            darkgrey
+
+Color: color01     #AF0000        124            darkred
+Color: color09     #AF5F00        130            red
+
+Color: color02     #005F00        22             darkgreen
+Color: color10     #008700        28             green
+
+Color: color03     #878700        100            darkyellow
+Color: color11     #D7D787        186            yellow
+
+Color: color04     #005FAF        25             darkblue
+Color: color12     #5F87AF        67             blue
+
+Color: color05     #870087        90             darkmagenta
+Color: color13     #AF5FAF        133            magenta
+
+Color: color06     #008787        30             darkcyan
+Color: color14     #5F8787        66             cyan
+
+Color: color07     #949494        246            grey
+Color: color15     #DADADA        253            white
+
+Color: color16     #E4E4E4        254            grey
+Color: color17     #000000        16             black
+
+Color: colorPmenu  #d0d0d0        252            grey
+Color: colorFold   #BCBCBC        250            grey
+Color: colorNonT   #9E9E9E        247            darkgrey
+Color: colorC      #FFAF5F        ~
+Color: colorlC     #5fff00        ~
+
+Term colors: color00 color01 color02 color03 color04 color05 color06 color07
+Term colors: color08 color09 color10 color11 color12 color13 color14 color15
+
+
+;;; chrome
+Variant: gui 256 16
+
+Normal             color00        color15
+
+Statusline         color15        color08
+StatuslineNC       color15        color07
+VertSplit          color07        color07
+
+TabLine            none           color07
+TabLineSel         none           none
+
+ToolbarLine        none           none
+ToolbarButton      color15        color10
+
+NonText            colorNonT      none
+
+Visual             color15        color12
+VisualNOS          color15        color12
+LineNr             color08        none
+
+DiffAdd            color02        none           reverse
+DiffText           color09        none           reverse
+DiffDelete         color01        none           reverse
+DiffChange         color03        none           reverse
+
+Pmenu              none           colorPmenu
+PmenuThumb         none           color07
+PmenuSbar          none           none
+PmenuSel           color15        color03
+
+SignColumn         none           none
+
+Error              color01        color15        reverse
+ModeMsg            color00        color11
+WarningMsg         color03        none
+MoreMsg            color02        none
+Question           color09        none
+
+Todo               color03        color15        reverse
+MatchParen         none           none           reverse
+Search             color15        color10
+IncSearch          color00        color11
+
+SpellBad           color01        none           t=underline g=undercurl s=color01
+SpellCap           color09        none           t=underline g=undercurl s=color09
+SpellLocal         color13        none           t=underline g=undercurl s=color13
+SpellRare          color11        none           t=underline g=undercurl s=color11
+
+Variant: gui
+Cursor             color00        colorC
+lCursor            color00        colorlC
+
+Variant: 16
+ColorColumn        color03        color00        reverse
+CursorLine         none           none           reverse
+Folded             color08        none           bold
+
+
+Variant: gui 256
+ColorColumn        none           color16
+CursorLine         none           color16
+Folded             color08        colorFold
+
+
+
+;;; :h group-names
+Variant: gui 256 16
+Comment            color07        none
+Constant           color09        none
+String             color10        none
+Character          color02        none
+Identifier         color06        none
+
+Statement          color05        none
+PreProc            color03        none
+Type               color04        none
+
+Special            color14        none
+
+Underlined         color12        none           underline
+
+Title              color17        none           bold
+Directory          color04        none           bold
+
+Conceal            color08        none
+Ignore             none           none
+
+
+Background: any
+
 ; Links
+ErrorMsg           -> Error
 WildMenu           -> IncSearch
 FoldColumn         -> LineNr
 LineNrAbove        -> LineNr
