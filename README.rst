@@ -1,8 +1,8 @@
 ********************************************************************************
-                                  vim-habamax
+                          habamax colorscheme for vim
 ********************************************************************************
 
-Vim colorscheme with dark background.
+Dark or light colors depending on ``&background``.
 
 Same colors for GUI and TUI with standard 256 color palette support.
 
