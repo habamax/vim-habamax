@@ -210,15 +210,15 @@ PmenuSel           color15        color03
 SignColumn         none           none
 
 Error              color01        color15        reverse
-ModeMsg            color15        color13
+ModeMsg            color15        color14
 WarningMsg         color03        none
 MoreMsg            color02        none
 Question           color09        none
 
 Todo               color03        color15        reverse
 MatchParen         none           none           reverse
-Search             color15        color10
-IncSearch          color00        color11
+Search             color15        color14
+IncSearch          color15        color13
 
 SpellBad           color01        none           t=underline g=undercurl s=color01
 SpellCap           color09        none           t=underline g=undercurl s=color09
