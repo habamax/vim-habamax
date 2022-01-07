@@ -206,7 +206,7 @@ DiffChange         color03        none           reverse
 Pmenu              none           colorPmenu
 PmenuThumb         none           color08
 PmenuSbar          none           none
-PmenuSel           color15        color03
+PmenuSel           color15        color06
 
 SignColumn         none           none
 
@@ -220,7 +220,7 @@ Todo               color03        color15        reverse
 MatchParen         none           none           reverse
 Search             color15        color14
 IncSearch          color15        color13
-WildMenu           color15        color03
+WildMenu           color15        color14
 
 SpellBad           color01        none           t=underline g=undercurl s=color01
 SpellCap           color09        none           t=underline g=undercurl s=color09
