@@ -37,7 +37,7 @@ Color: color17     #EEEEEE        255            white
 
 Color: colorPmenu  #1C1C1C        234            darkgrey
 Color: colorFold   #303030        236            darkgrey
-Color: colorNonT   #444444        238            darkgrey
+Color: colorNonT   #4E4E4E        239            darkgrey
 Color: colorC      #FFAF5F        ~
 Color: colorlC     #5fff00        ~
 
@@ -63,7 +63,7 @@ NonText            colorNonT      none
 
 Visual             color00        color12
 VisualNOS          color00        color12
-LineNr             color07        none
+LineNr             colorNonT      none
 
 DiffAdd            color02        none           reverse
 DiffText           color09        none           reverse
@@ -196,7 +196,7 @@ NonText            colorNonT      none
 
 Visual             color15        color12
 VisualNOS          color15        color12
-LineNr             color08        none
+LineNr             colorNonT      none
 
 DiffAdd            color02        none           reverse
 DiffText           color09        none           reverse
