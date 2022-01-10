@@ -206,7 +206,7 @@ DiffChange         color03        none           reverse
 Pmenu              none           colorPmenu
 PmenuThumb         none           color08
 PmenuSbar          none           none
-PmenuSel           color15        color06
+PmenuSel           color00        color11
 
 SignColumn         none           none
 
