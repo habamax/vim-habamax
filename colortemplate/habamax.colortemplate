@@ -76,6 +76,7 @@ PmenuSbar          none           none
 PmenuSel           color00        color03
 
 SignColumn         none           none
+ColorColumn        color03        color00        reverse
 
 Error              color01        color00        reverse
 ModeMsg            color00        color11
@@ -99,13 +100,11 @@ Cursor             color00        colorC
 lCursor            color00        colorlC
 
 Variant: 16
-ColorColumn        color03        color00        reverse
 CursorLine         none           none           reverse
 Folded             color07        none           bold
 
 
 Variant: gui 256
-ColorColumn        none           color16
 CursorLine         none           color16
 Folded             color07        colorFold
 
@@ -209,6 +208,7 @@ PmenuSbar          none           none
 PmenuSel           color00        color11
 
 SignColumn         none           none
+ColorColumn        color03        color15        reverse
 
 Error              color01        color15        reverse
 ModeMsg            color00        color11
@@ -232,13 +232,11 @@ Cursor             color15        colorC
 lCursor            color00        colorlC
 
 Variant: 16
-ColorColumn        color03        color00        reverse
 CursorLine         none           none           reverse
 Folded             color08        none           bold
 
 
 Variant: gui 256
-ColorColumn        none           color16
 CursorLine         none           color16
 Folded             color08        colorFold
 
