@@ -171,6 +171,7 @@ Color: colorFold   #D0D0D0        252            grey
 Color: colorNonT   #9E9E9E        247            darkgrey
 Color: colorC      #AF875F        ~
 Color: colorlC     #008700        ~
+Color: colorCol    #AFAF87        144            darkyellow
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -208,7 +209,7 @@ PmenuSbar          none           none
 PmenuSel           color00        color11
 
 SignColumn         none           none
-ColorColumn        color03        color15        reverse
+ColorColumn        colorCol       color00        reverse
 
 Error              color01        color15        reverse
 ModeMsg            color00        color11
