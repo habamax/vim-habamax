@@ -190,7 +190,7 @@ TabLine            none           color07
 TabLineSel         none           none
 
 ToolbarLine        none           none
-ToolbarButton      color15        color10
+ToolbarButton      color15        color02
 
 NonText            colorNonT      none
 
