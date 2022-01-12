@@ -60,7 +60,6 @@ NonText            colorNonT      none
 
 Visual             color00        color12
 VisualNOS          color00        color12
-LineNr             color08        colorB
 
 DiffAdd            color02        none           reverse
 DiffText           color09        none           reverse
@@ -73,7 +72,6 @@ PmenuSbar          none           none
 PmenuSel           color00        color03
 
 SignColumn         none           none
-ColorColumn        none           colorB
 
 Error              color01        color00        reverse
 ModeMsg            color00        color11
@@ -99,13 +97,17 @@ Cursor             color00        colorC
 lCursor            color00        colorlC
 
 Variant: 16
+LineNr             color08        color00
 CursorLine         none           none           reverse
 Folded             color07        none           bold
+ColorColumn        color00           color03
 
 
 Variant: gui 256
+LineNr             color08        colorB
 CursorLine         none           colorLine
 Folded             color07        colorB
+ColorColumn        none           colorB
 
 
 
@@ -201,7 +203,6 @@ DiffAdd            color02        none           reverse
 DiffText           color09        none           reverse
 DiffDelete         color01        none           reverse
 DiffChange         color04        none           reverse
-; DiffChange         colorCol       color00           reverse
 
 Pmenu              none           colorPmenu
 PmenuThumb         none           color08
