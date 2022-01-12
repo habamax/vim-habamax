@@ -90,7 +90,7 @@ SpellCap           color09        none           t=underline g=undercurl s=color
 SpellLocal         color13        none           t=underline g=undercurl s=color13
 SpellRare          color11        none           t=underline g=undercurl s=color11
 
-CursorLineNr       color03        colorLine
+CursorLineNr       color03        colorLine      bold
 
 Variant: gui
 Cursor             color00        colorC
@@ -100,7 +100,7 @@ Variant: 16
 LineNr             color08        color00
 CursorLine         none           none           reverse
 Folded             color07        none           bold
-ColorColumn        color00           color03
+ColorColumn        color00        color03
 
 
 Variant: gui 256
@@ -164,15 +164,13 @@ Color: color14     #5F8787        66             cyan
 Color: color07     #949494        246            grey
 Color: color15     #DADADA        253            white
 
-Color: colorLine     #E4E4E4        254            grey
-Color: color17     #000000        16             black
-
+Color: colorLine   #D0D0D0        252            grey
+Color: colorB      #E4E4E4        254            grey
 Color: colorPmenu  #C6C6C6        251            grey
-Color: colorFold   #D0D0D0        252            grey
 Color: colorNonT   #9E9E9E        247            darkgrey
 Color: colorC      #AF875F        ~
 Color: colorlC     #008700        ~
-Color: colorCol    #AFAF87        144            darkyellow
+
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -197,7 +195,6 @@ NonText            colorNonT      none
 
 Visual             color15        color12
 VisualNOS          color15        color12
-LineNr             colorNonT      none
 
 DiffAdd            color02        none           reverse
 DiffText           color09        none           reverse
@@ -210,7 +207,6 @@ PmenuSbar          none           none
 PmenuSel           color00        color11
 
 SignColumn         none           none
-ColorColumn        colorCol       color00        reverse
 
 Error              color01        color15        reverse
 ModeMsg            color00        color11
@@ -229,19 +225,24 @@ SpellCap           color09        none           t=underline g=undercurl s=color
 SpellLocal         color13        none           t=underline g=undercurl s=color13
 SpellRare          color11        none           t=underline g=undercurl s=color11
 
+CursorLineNr       color03        colorLine      bold
+
 Variant: gui
 Cursor             color15        colorC
 lCursor            color00        colorlC
 
 Variant: 16
+LineNr             color07        color15
 CursorLine         none           none           reverse
 Folded             color08        none           bold
+ColorColumn        color00        color03
 
 
 Variant: gui 256
+LineNr             color07        colorB
 CursorLine         none           colorLine
-Folded             color08        colorFold
-
+Folded             color08        colorB
+ColorColumn        none           colorB
 
 
 ;;; :h group-names
@@ -260,7 +261,7 @@ Special            color14        none
 
 Underlined         color12        none           underline
 
-Title              color17        none           bold
+Title              color03        none           bold
 Directory          color04        none           bold
 
 Conceal            color08        none
