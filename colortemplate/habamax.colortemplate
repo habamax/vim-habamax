@@ -30,7 +30,7 @@ Color: color06     #5F8787        66             darkcyan
 Color: color14     #87AFAF        109            cyan
 
 Color: color07     #949494        246            grey
-Color: color15     #BCBCBC        250            white
+Color: color15     #DADADA        253            white
 
 Color: colorLine   #303030        236            darkgrey
 Color: colorB      #1C1C1C        234            darkgrey
