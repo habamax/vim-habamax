@@ -35,7 +35,7 @@ Color: color15     #BCBCBC        250            white
 Color: colorLine   #303030        236            darkgrey
 Color: colorB      #1C1C1C        234            darkgrey
 Color: colorNonT   #4E4E4E        239            darkgrey
-Color: colorC      #FFAF5F        ~
+Color: colorC      #FFAF5F        215            red
 Color: colorlC     #5fff00        ~
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
@@ -90,7 +90,7 @@ SpellCap           color09        none           t=underline g=undercurl s=color
 SpellLocal         color13        none           t=underline g=undercurl s=color13
 SpellRare          color11        none           t=underline g=undercurl s=color11
 
-CursorLineNr       color03        colorLine      bold
+CursorLineNr       colorC         colorLine      bold
 
 Variant: gui
 Cursor             color00        colorC
