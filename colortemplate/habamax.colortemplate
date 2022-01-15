@@ -168,7 +168,6 @@ Color: colorLine   #D0D0D0        252            grey
 Color: colorB      #E4E4E4        254            grey
 Color: colorPmenu  #C6C6C6        251            grey
 Color: colorNonT   #9E9E9E        247            darkgrey
-; Color: colorC      #AF875F        ~
 Color: colorC      #D78700        173            red
 Color: colorlC     #008700        ~
 
