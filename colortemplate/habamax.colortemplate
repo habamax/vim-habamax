@@ -214,7 +214,7 @@ WarningMsg         color03        none
 MoreMsg            color02        none
 Question           color09        none
 
-Todo               color11        color00        reverse
+Todo               color00        color11
 MatchParen         none           none           reverse
 Search             color15        color14
 IncSearch          color15        color13
