@@ -4,6 +4,7 @@ Short name: habamax
 Description: Hubba hubba hubba.
 Author: Maxim Kim <habamax@gmail.com>
 
+Colortemplate Options: backward_compatible=0
 
 Background: dark
 
