@@ -60,11 +60,6 @@ NonText            colorNonT      none
 Visual             color00        color12
 VisualNOS          color00        color12
 
-DiffAdd            color02        none           reverse
-DiffText           color09        none           reverse
-DiffDelete         color01        none           reverse
-DiffChange         color03        none           reverse
-
 Pmenu              none           colorB
 PmenuThumb         none           color07
 PmenuSbar          none           none
@@ -197,11 +192,6 @@ NonText            colorNonT      none
 Visual             color15        color12
 VisualNOS          color15        color12
 
-DiffAdd            color02        none           reverse
-DiffText           color09        none           reverse
-DiffDelete         color01        none           reverse
-DiffChange         color04        none           reverse
-
 Pmenu              none           colorPmenu
 PmenuThumb         none           color08
 PmenuSbar          none           none
@@ -287,6 +277,8 @@ StatuslineTerm     -> Statusline
 StatuslineTermNC   -> StatuslineNC
 TabLineFill        -> TabLine
 
+; Diff colors
+Include: _diff
 
 ; No color support
 Include: _tcozero
