@@ -89,15 +89,15 @@ SpellCap           color09        none           t=underline g=undercurl s=color
 SpellLocal         color13        none           t=underline g=undercurl s=color13
 SpellRare          color11        none           t=underline g=undercurl s=color11
 
-CursorLineNr       colorC         colorLine      bold
-
 Variant: gui
 Cursor             color00        colorC
 lCursor            color00        colorlC
 
 Variant: 16
 LineNr             color08        color00
-CursorLine         none           none           reverse
+CursorLine         none           none           underline
+CursorLineNr       colorC         none           bold,underline
+CursorColumn       none           none           reverse
 Folded             color07        none           bold
 ColorColumn        color00        color03
 
@@ -105,6 +105,8 @@ ColorColumn        color00        color03
 Variant: gui 256
 LineNr             color08        colorB
 CursorLine         none           colorLine
+CursorColumn       none           colorLine
+CursorLineNr       colorC         colorLine      bold
 Folded             color07        colorB
 ColorColumn        none           colorB
 
@@ -224,7 +226,6 @@ SpellCap           color09        none           t=underline g=undercurl s=color
 SpellLocal         color13        none           t=underline g=undercurl s=color13
 SpellRare          color11        none           t=underline g=undercurl s=color11
 
-CursorLineNr       colorC         colorLine      bold
 
 Variant: gui
 Cursor             color15        colorC
@@ -232,7 +233,9 @@ lCursor            color00        colorlC
 
 Variant: 16
 LineNr             color07        color15
-CursorLine         none           none           reverse
+CursorLine         none           none           underline
+CursorColumn       none           none           reverse
+CursorLineNr       colorC         none           bold,underline
 Folded             color08        none           bold
 ColorColumn        color00        color03
 
@@ -240,6 +243,8 @@ ColorColumn        color00        color03
 Variant: gui 256
 LineNr             color07        colorB
 CursorLine         none           colorLine
+CursorColumn       none           colorLine
+CursorLineNr       colorC         colorLine      bold
 Folded             color08        colorB
 ColorColumn        none           colorB
 
@@ -276,7 +281,6 @@ LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
 SpecialKey         -> NonText
 EndOfBuffer        -> NonText
-CursorColumn       -> CursorLine
 QuickFixLine       -> CursorLine
 Terminal           -> Normal
 StatuslineTerm     -> Statusline
