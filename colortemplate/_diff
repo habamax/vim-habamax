@@ -1,6 +1,7 @@
 ; vim: ft=colortemplate cc=20,35,50 vsts=19,15,15,4
 
 ; "Standard" Diff colors for legacy colorschemes
+Background: any
 Variant:    gui 256 16
 
 Color: bgDiffA     #5F875F        65             darkgreen
