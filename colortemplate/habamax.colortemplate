@@ -205,8 +205,8 @@ Question           color09        none
 
 Todo               color00        color11
 MatchParen         none           none           reverse
-Search             color15        color14
-IncSearch          color15        color13
+Search             color15        color10
+IncSearch          color15        color03
 WildMenu           color00        color11
 
 SpellBad           color01        none           t=underline g=undercurl s=color01
