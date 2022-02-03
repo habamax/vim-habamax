@@ -57,8 +57,8 @@ ToolbarButton      color00        color02
 
 NonText            colorNonT      none
 
-Visual             color00        color12
-VisualNOS          color00        color12
+Visual             color15        color08
+VisualNOS          color15        color08
 
 Pmenu              none           colorB
 PmenuThumb         none           color07
@@ -189,8 +189,8 @@ ToolbarButton      color15        color02
 
 NonText            colorNonT      none
 
-Visual             color15        color12
-VisualNOS          color15        color12
+Visual             color00        color07
+VisualNOS          color00        color07
 
 Pmenu              none           colorPmenu
 PmenuThumb         none           color08
