@@ -166,6 +166,7 @@ Color: colorPmenu  #C6C6C6        251            grey
 Color: colorNonT   #9E9E9E        247            darkgrey
 Color: colorC      #D78700        173            red
 Color: colorlC     #008700        ~
+Color: colorV      #5F8787        66             darkcyan
 
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
@@ -188,9 +189,6 @@ ToolbarLine        none           none
 ToolbarButton      color15        color02
 
 NonText            colorNonT      none
-
-Visual             color15        color06
-VisualNOS          color15        color06
 
 Pmenu              none           colorPmenu
 PmenuThumb         none           color08
@@ -222,6 +220,8 @@ Cursor             color15        colorC
 lCursor            color00        colorlC
 
 Variant: 16
+Visual             color00        color14
+VisualNOS          color00        color14
 LineNr             color07        color15
 CursorLine         none           none           underline
 CursorColumn       none           none           reverse
@@ -231,6 +231,8 @@ ColorColumn        color00        color03
 
 
 Variant: gui 256
+Visual             color15        color14
+VisualNOS          color15        color14
 LineNr             color07        colorB
 CursorLine         none           colorLine
 CursorColumn       none           colorLine
