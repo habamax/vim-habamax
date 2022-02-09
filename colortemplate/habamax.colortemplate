@@ -4,6 +4,21 @@ Short name: habamax
 Description: Hubba hubba hubba.
 Author: Maxim Kim <habamax@gmail.com>
 
+
+;;; Links
+ErrorMsg           -> Error
+FoldColumn         -> LineNr
+LineNrAbove        -> LineNr
+LineNrBelow        -> LineNr
+SpecialKey         -> NonText
+EndOfBuffer        -> NonText
+QuickFixLine       -> CursorLine
+Terminal           -> Normal
+StatuslineTerm     -> Statusline
+StatuslineTermNC   -> StatuslineNC
+TabLineFill        -> TabLine
+
+
 Background: dark
 
 ;;; Color palette
@@ -96,7 +111,6 @@ CursorColumn       none           none           reverse
 Folded             color07        none           bold
 ColorColumn        color00        color03
 
-
 Variant: gui 256
 LineNr             color08        colorB
 CursorLine         none           colorLine
@@ -104,8 +118,6 @@ CursorColumn       none           colorLine
 CursorLineNr       colorC         colorLine      bold
 Folded             color07        colorB
 ColorColumn        none           colorB
-
-
 
 ;;; :h group-names
 Variant: gui 256 16
@@ -128,8 +140,6 @@ Directory          color04        none           bold
 
 Conceal            color08        none
 Ignore             none           none
-
-
 
 
 
@@ -172,7 +182,6 @@ Color: colorV      #5F8787        66             darkcyan
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 
-
 ;;; chrome
 Variant: gui 256 16
 
@@ -214,7 +223,6 @@ SpellCap           color09        none           t=underline g=undercurl s=color
 SpellLocal         color13        none           t=underline g=undercurl s=color13
 SpellRare          color11        none           t=underline g=undercurl s=color11
 
-
 Variant: gui
 Cursor             color15        colorC
 lCursor            color00        colorlC
@@ -229,7 +237,6 @@ CursorLineNr       colorC         none           bold,underline
 Folded             color08        none           bold
 ColorColumn        color00        color03
 
-
 Variant: gui 256
 Visual             color15        color14
 VisualNOS          color15        color14
@@ -239,7 +246,6 @@ CursorColumn       none           colorLine
 CursorLineNr       colorC         colorLine      bold
 Folded             color08        colorB
 ColorColumn        none           colorB
-
 
 ;;; :h group-names
 Variant: gui 256 16
@@ -264,23 +270,9 @@ Conceal            color08        none
 Ignore             none           none
 
 
-Background: any
-
-; Links
-ErrorMsg           -> Error
-FoldColumn         -> LineNr
-LineNrAbove        -> LineNr
-LineNrBelow        -> LineNr
-SpecialKey         -> NonText
-EndOfBuffer        -> NonText
-QuickFixLine       -> CursorLine
-Terminal           -> Normal
-StatuslineTerm     -> Statusline
-StatuslineTermNC   -> StatuslineNC
-TabLineFill        -> TabLine
-
 ; Diff colors
 Include: _diff
+
 
 ; No color support
 Include: _tcozero
