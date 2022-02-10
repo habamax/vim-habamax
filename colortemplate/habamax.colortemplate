@@ -175,7 +175,7 @@ Color: colorB      #E4E4E4        254            grey
 Color: colorPmenu  #DADADA        253            grey
 Color: colorNonT   #9E9E9E        247            darkgrey
 Color: colorC      #D78700        173            red
-Color: colorlC     #008700        ~
+Color: colorlC     #5F875F        65             darkgreen
 Color: colorV      #5F8787        66             darkcyan
 
 
@@ -213,7 +213,7 @@ Question           color09        none
 
 Todo               color00        color11
 MatchParen         none           none           reverse
-Search             color15        color10
+Search             color15        colorlC
 IncSearch          color15        colorC
 WildMenu           color00        color11
 
