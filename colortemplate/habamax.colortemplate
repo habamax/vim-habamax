@@ -34,7 +34,7 @@ Color: color10     #AFD7AF        151            green
 Color: color03     #AFAF87        144            darkyellow
 Color: color11     #D7D787        186            yellow
 
-Color: color04     #5F87AF        67             darkblue
+Color: color04     #5F87AF        67             blue
 Color: color12     #87AFD7        110            blue
 
 Color: color05     #AF87AF        139            darkmagenta
@@ -153,7 +153,7 @@ Color: color01     #AF0000        124            darkred
 Color: color09     #AF5F00        130            red
 
 Color: color02     #005F00        22             darkgreen
-Color: color10     #008700        28             green
+Color: color10     #008700        28             darkgreen
 
 Color: color03     #875F00        94             darkyellow
 Color: color11     #D7D787        186            yellow
@@ -162,10 +162,10 @@ Color: color04     #005FAF        25             darkblue
 Color: color12     #5F87AF        67             blue
 
 Color: color05     #870087        90             darkmagenta
-Color: color13     #AF5FAF        133            magenta
+Color: color13     #AF5FAF        133            darkmagenta
 
-Color: color06     #008787        30             darkcyan
-Color: color14     #5F8787        66             cyan
+Color: color06     #008787        30             blue
+Color: color14     #5F8787        66             darkcyan
 
 Color: color07     #949494        246            grey
 Color: color15     #FFFFFF        231            white
@@ -188,7 +188,6 @@ Variant: gui 256 16
 Normal             color00        color15
 
 Statusline         color15        color08
-StatuslineNC       color15        color07
 VertSplit          color07        color07
 
 TabLine            none           color07
@@ -228,6 +227,8 @@ Cursor             color15        colorC
 lCursor            color00        colorlC
 
 Variant: 16
+
+StatuslineNC       color00        color07
 Visual             color00        color14
 VisualNOS          color00        color14
 LineNr             colorB         color15
@@ -238,6 +239,8 @@ Folded             color08        none           bold
 ColorColumn        color00        color03
 
 Variant: gui 256
+
+StatuslineNC       color15        color07
 Visual             color15        color14
 VisualNOS          color15        color14
 LineNr             color07        colorB
@@ -248,8 +251,11 @@ Folded             color08        colorB
 ColorColumn        none           colorB
 
 ;;; :h group-names
-Variant: gui 256 16
+Variant: gui 256
 Comment            color07        none
+Variant: 16
+Comment            color08        none
+Variant: gui 256 16
 Constant           color09        none
 String             color10        none
 Character          color02        none
