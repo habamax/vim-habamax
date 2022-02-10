@@ -168,11 +168,11 @@ Color: color06     #008787        30             darkcyan
 Color: color14     #5F8787        66             cyan
 
 Color: color07     #949494        246            grey
-Color: color15     #DADADA        253            white
+Color: color15     #FFFFFF        231            white
 
-Color: colorLine   #D0D0D0        252            grey
+Color: colorLine   #EEEEEE        255            grey
 Color: colorB      #E4E4E4        254            grey
-Color: colorPmenu  #C6C6C6        251            grey
+Color: colorPmenu  #DADADA        253            grey
 Color: colorNonT   #9E9E9E        247            darkgrey
 Color: colorC      #D78700        173            red
 Color: colorlC     #008700        ~
@@ -215,7 +215,7 @@ Question           color09        none
 Todo               color00        color11
 MatchParen         none           none           reverse
 Search             color15        color10
-IncSearch          color15        color03
+IncSearch          color15        colorC
 WildMenu           color00        color11
 
 SpellBad           color01        none           t=underline g=undercurl s=color01
@@ -230,7 +230,7 @@ lCursor            color00        colorlC
 Variant: 16
 Visual             color00        color14
 VisualNOS          color00        color14
-LineNr             color07        color15
+LineNr             colorB         color15
 CursorLine         none           none           underline
 CursorColumn       none           none           reverse
 CursorLineNr       colorC         none           bold,underline
