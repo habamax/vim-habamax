@@ -10,8 +10,6 @@ ErrorMsg           -> Error
 FoldColumn         -> LineNr
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
-SpecialKey         -> NonText
-EndOfBuffer        -> NonText
 QuickFixLine       -> CursorLine
 Terminal           -> Normal
 StatuslineTerm     -> Statusline
@@ -72,6 +70,8 @@ ToolbarButton      color00        color02
 
 LineNr             colorNonT      none
 NonText            colorNonT      none
+EndOfBuffer        colorNonT      none
+SpecialKey         colorNonT      none
 
 Visual             color00        color06
 VisualNOS          color00        color06
@@ -114,7 +114,7 @@ ColorColumn        color00        color03
 Variant: gui 256
 CursorLine         none           colorLine
 CursorColumn       none           colorLine
-CursorLineNr       colorC         colorLine      bold
+CursorLineNr       colorC         none           bold
 Folded             color07        colorB
 ColorColumn        none           colorB
 
@@ -197,6 +197,8 @@ ToolbarButton      color15        color02
 
 LineNr             colorNonT      none
 NonText            colorNonT      none
+EndOfBuffer        colorNonT      none
+SpecialKey         colorNonT      none
 
 Pmenu              none           colorPmenu
 PmenuThumb         none           color08
@@ -244,7 +246,7 @@ Visual             color15        color14
 VisualNOS          color15        color14
 CursorLine         none           colorLine
 CursorColumn       none           colorLine
-CursorLineNr       colorC         colorLine      bold
+CursorLineNr       colorC         none           bold
 Folded             color08        colorB
 ColorColumn        none           colorB
 
