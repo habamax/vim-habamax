@@ -48,7 +48,7 @@ Color: color15     #BCBCBC        250            white
 
 Color: colorLine   #303030        236            darkgrey
 Color: colorB      #1C1C1C        234            darkgrey
-Color: colorNonT   #4E4E4E        239            darkgrey
+Color: colorNonT   #444444        238            darkgrey
 Color: colorC      #FFAF5F        215            red
 Color: colorlC     #5FFF00        ~
 
@@ -172,7 +172,7 @@ Color: color15     #FFFFFF        231            white
 Color: colorLine   #EEEEEE        255            grey
 Color: colorB      #E4E4E4        254            grey
 Color: colorPmenu  #DADADA        253            grey
-Color: colorNonT   #B2B2B2        249            grey
+Color: colorNonT   #BCBCBC        250            grey
 Color: colorC      #D78700        173            red
 Color: colorlC     #5F875F        65             darkgreen
 Color: colorV      #5F8787        66             darkcyan
