@@ -102,8 +102,8 @@ SpellCap           color09        none           t=underline g=undercurl s=color
 SpellLocal         color13        none           t=underline g=undercurl s=color13
 SpellRare          color11        none           t=underline g=undercurl s=color11
 
-debugPC            none           color04
-debugBreakpoint    none           color09
+debugPC            color00        color04
+debugBreakpoint    color00        color09
 
 Variant: gui
 Cursor             color00        colorC
@@ -226,8 +226,8 @@ SpellCap           color09        none           t=underline g=undercurl s=color
 SpellLocal         color13        none           t=underline g=undercurl s=color13
 SpellRare          color11        none           t=underline g=undercurl s=color11
 
-debugPC            none           color04
-debugBreakpoint    none           color09
+debugPC            color15        color04
+debugBreakpoint    color15        color01
 
 
 Variant: gui
