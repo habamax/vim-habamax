@@ -15,6 +15,9 @@ Terminal           -> Normal
 StatuslineTerm     -> Statusline
 StatuslineTermNC   -> StatuslineNC
 TabLineFill        -> TabLine
+EndOfBuffer        -> NonText
+SpecialKey         -> NonText
+Debug              -> Special
 
 
 Background: dark
@@ -71,8 +74,6 @@ ToolbarButton      color00        color02
 CursorLineNr       colorC         none           bold
 LineNr             colorNonT      none
 NonText            colorNonT      none
-EndOfBuffer        colorNonT      none
-SpecialKey         colorNonT      none
 
 Visual             color00        color06
 VisualNOS          color00        color06
@@ -100,6 +101,9 @@ SpellBad           color01        none           t=underline g=undercurl s=color
 SpellCap           color09        none           t=underline g=undercurl s=color09
 SpellLocal         color13        none           t=underline g=undercurl s=color13
 SpellRare          color11        none           t=underline g=undercurl s=color11
+
+debugPC            none           color04
+debugBreakpoint    none           color09
 
 Variant: gui
 Cursor             color00        colorC
@@ -197,8 +201,6 @@ ToolbarButton      color15        color02
 CursorLineNr       colorC         none           bold
 LineNr             colorNonT      none
 NonText            colorNonT      none
-EndOfBuffer        colorNonT      none
-SpecialKey         colorNonT      none
 
 Pmenu              none           colorPmenu
 PmenuThumb         none           color08
@@ -223,6 +225,10 @@ SpellBad           color01        none           t=underline g=undercurl s=color
 SpellCap           color09        none           t=underline g=undercurl s=color09
 SpellLocal         color13        none           t=underline g=undercurl s=color13
 SpellRare          color11        none           t=underline g=undercurl s=color11
+
+debugPC            none           color04
+debugBreakpoint    none           color09
+
 
 Variant: gui
 Cursor             color15        colorC
