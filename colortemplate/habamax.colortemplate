@@ -70,7 +70,7 @@ TabLineSel         none           none
 ToolbarLine        none           none
 ToolbarButton      color00        color02
 
-QuickFixLine       color00        color11
+QuickFixLine       color00        color04
 CursorLineNr       colorC         none           bold
 LineNr             colorNonT      none
 NonText            colorNonT      none
