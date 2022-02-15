@@ -198,7 +198,7 @@ TabLineSel         none           none
 ToolbarLine        none           none
 ToolbarButton      color15        color02
 
-QuickFixLine       color00        color11
+QuickFixLine       color15        color12
 CursorLineNr       colorC         none           bold
 LineNr             colorNonT      none
 NonText            colorNonT      none
