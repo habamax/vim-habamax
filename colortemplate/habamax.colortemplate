@@ -10,7 +10,6 @@ ErrorMsg           -> Error
 FoldColumn         -> LineNr
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
-QuickFixLine       -> CursorLine
 Terminal           -> Normal
 StatuslineTerm     -> Statusline
 StatuslineTermNC   -> StatuslineNC
@@ -71,6 +70,7 @@ TabLineSel         none           none
 ToolbarLine        none           none
 ToolbarButton      color00        color02
 
+QuickFixLine       color00        color11
 CursorLineNr       colorC         none           bold
 LineNr             colorNonT      none
 NonText            colorNonT      none
@@ -198,6 +198,7 @@ TabLineSel         none           none
 ToolbarLine        none           none
 ToolbarButton      color15        color02
 
+QuickFixLine       color00        color11
 CursorLineNr       colorC         none           bold
 LineNr             colorNonT      none
 NonText            colorNonT      none
