@@ -284,8 +284,8 @@ Ignore             none           none
 
 
 ; Diff colors
-Include: _diff
+Include: _diff_any
 
 
 ; No color support
-Include: _tcozero
+Include: _tcozero_any
