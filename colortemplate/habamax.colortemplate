@@ -70,7 +70,7 @@ TabLineSel         none           none
 ToolbarLine        none           none
 ToolbarButton      color00        color02
 
-QuickFixLine       color00        color04
+QuickFixLine       color04        color00        reverse
 CursorLineNr       colorC         none           bold
 LineNr             colorNonT      none
 NonText            colorNonT      none
@@ -170,10 +170,10 @@ Color: color06     #008787        30             blue
 Color: color14     #5F8787        66             darkcyan
 
 Color: color07     #949494        246            grey
-Color: color15     #EEEEEE        255            white
+Color: color15     #E4E4E4        254            white
 
-Color: colorLine   #E4E4E4        254            grey
-Color: colorB      #FFFFFF        231            grey
+Color: colorLine   #DADADA        253            grey
+Color: colorB      #EEEEEE        255            grey
 Color: colorNonT   #BCBCBC        250            grey
 Color: colorC      #D78700        173            red
 Color: colorlC     #5F875F        65             darkgreen
@@ -197,7 +197,7 @@ TabLineSel         none           none
 ToolbarLine        none           none
 ToolbarButton      color15        color02
 
-QuickFixLine       color15        color12
+QuickFixLine       color12        color15        reverse
 CursorLineNr       colorC         none           bold
 LineNr             colorNonT      none
 NonText            colorNonT      none
