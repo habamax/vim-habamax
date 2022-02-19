@@ -97,10 +97,10 @@ Search             color00        color02
 IncSearch          color00        colorC
 WildMenu           color00        color11
 
-SpellBad           color01        none           t=underline g=undercurl s=color01
-SpellCap           color09        none           t=underline g=undercurl s=color09
-SpellLocal         color13        none           t=underline g=undercurl s=color13
-SpellRare          color11        none           t=underline g=undercurl s=color11
+SpellBad           none           none           t=underline g=undercurl s=color01
+SpellCap           none           none           t=underline g=undercurl s=color04
+SpellLocal         none           none           t=underline g=undercurl s=color02
+SpellRare          none           none           t=underline g=undercurl s=color13
 
 debugPC            color00        color04
 debugBreakpoint    color00        color09
@@ -221,10 +221,10 @@ Search             color15        colorlC
 IncSearch          color15        colorC
 WildMenu           color00        color11
 
-SpellBad           color01        none           t=underline g=undercurl s=color01
-SpellCap           color09        none           t=underline g=undercurl s=color09
-SpellLocal         color13        none           t=underline g=undercurl s=color13
-SpellRare          color11        none           t=underline g=undercurl s=color11
+SpellBad           none           none           t=underline g=undercurl s=color01
+SpellCap           none           none           t=underline g=undercurl s=color04
+SpellLocal         none           none           t=underline g=undercurl s=color02
+SpellRare          none           none           t=underline g=undercurl s=color13
 
 debugPC            color15        color04
 debugBreakpoint    color15        color01
