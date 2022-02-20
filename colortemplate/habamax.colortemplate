@@ -182,7 +182,7 @@ Color: color15     #E4E4E4        254            white
 Color: colorLine   #DADADA        253            grey
 Color: colorB      #EEEEEE        255            grey
 Color: colorNonT   #BCBCBC        250            grey
-Color: colorC      #D78700        173            red
+Color: colorC      #FF5F5F        203            red
 Color: colorlC     #5F875F        65             darkgreen
 Color: colorV      #5F8787        66             darkcyan
 
