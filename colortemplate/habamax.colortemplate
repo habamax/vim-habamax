@@ -87,9 +87,9 @@ SignColumn         none           none
 
 Error              color01        color00        reverse
 ModeMsg            color00        color11
-WarningMsg         color03        none
 MoreMsg            color02        none
-Question           color09        none
+Question           color03        none
+WarningMsg         color09        none
 
 Todo               color11        color00        reverse
 MatchParen         none           none           reverse
@@ -218,9 +218,9 @@ SignColumn         none           none
 
 Error              color01        color15        reverse
 ModeMsg            color00        color11
-WarningMsg         color03        none
 MoreMsg            color02        none
-Question           color09        none
+Question           color03        none
+WarningMsg         color09        none
 
 Todo               color11        color00        reverse
 MatchParen         none           none           reverse
