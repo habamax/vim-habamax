@@ -71,7 +71,7 @@ ToolbarLine        none           none
 ToolbarButton      color15        colorNonT
 
 QuickFixLine       color04        color00        reverse
-CursorLineNr       colorC         none           bold
+CursorLineNr       colorC         none
 LineNr             colorNonT      none
 NonText            colorNonT      none
 
@@ -107,7 +107,7 @@ lCursor            color00        colorlC
 Variant: 16
 CursorLine         none           none           underline
 CursorColumn       none           none           reverse
-Folded             color07        none           bold
+Folded             color07        none           underline
 ColorColumn        color00        color03
 
 Variant: gui 256
@@ -144,8 +144,8 @@ Special            color06        none
 
 Underlined         color12        none           underline
 
-Title              color03        none           bold
-Directory          color04        none           bold
+Title              color03        none           g=bold
+Directory          color04        none           g=bold
 
 Conceal            color08        none
 Ignore             none           none
@@ -205,7 +205,7 @@ ToolbarLine        none           none
 ToolbarButton      color00        colorNonT
 
 QuickFixLine       color12        color15        reverse
-CursorLineNr       colorC         none           bold
+CursorLineNr       colorC         none
 LineNr             colorNonT      none
 NonText            colorNonT      none
 
@@ -243,7 +243,7 @@ Visual             color00        color14
 VisualNOS          color00        color14
 CursorLine         none           none           underline
 CursorColumn       none           none           reverse
-Folded             color08        none           bold
+Folded             color08        none           underline
 ColorColumn        color00        color03
 
 Variant: gui 256
@@ -289,8 +289,8 @@ Special            color14        none
 
 Underlined         color12        none           underline
 
-Title              color03        none           bold
-Directory          color04        none           bold
+Title              color03        none           g=bold
+Directory          color04        none           g=bold
 
 Conceal            color08        none
 Ignore             none           none
