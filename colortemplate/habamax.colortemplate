@@ -64,13 +64,13 @@ Statusline         color00        color07
 StatuslineNC       color00        color08
 VertSplit          color08        color08
 
-TabLine            none           color08
+TabLine            color00        color08
 TabLineSel         none           none
 
 ToolbarLine        none           none
 ToolbarButton      color15        colorNonT
 
-QuickFixLine       color04        color00        reverse
+QuickFixLine       color00        color04
 CursorLineNr       colorC         none           g=bold
 LineNr             colorNonT      none
 NonText            colorNonT      none
@@ -92,7 +92,7 @@ Question           color03        none
 WarningMsg         color09        none
 
 Todo               color11        color00        reverse
-MatchParen         none           none           reverse
+MatchParen         color00        color14
 Search             color00        color02
 IncSearch          color00        colorC
 WildMenu           color00        color11
@@ -181,7 +181,7 @@ Color: color15     #E4E4E4        254            white
 
 Color: colorLine   #DADADA        253            grey
 Color: colorB      #EEEEEE        255            grey
-Color: colorNonT   #BCBCBC        250            grey
+Color: colorNonT   #B2B2B2        249            grey
 Color: colorC      #AF5F00        130            red
 Color: colorlC     #5F875F        65             darkgreen
 Color: colorV      #5F8787        66             darkcyan
@@ -204,7 +204,7 @@ TabLineSel         none           none
 ToolbarLine        none           none
 ToolbarButton      color00        colorNonT
 
-QuickFixLine       color12        color15        reverse
+QuickFixLine       color15        color12
 CursorLineNr       colorC         none           g=bold
 LineNr             colorNonT      none
 NonText            colorNonT      none
@@ -223,7 +223,7 @@ Question           color03        none
 WarningMsg         color09        none
 
 Todo               color11        color00        reverse
-MatchParen         none           none           reverse
+MatchParen         color15        color06
 Search             color15        colorlC
 IncSearch          color15        colorC
 WildMenu           color00        color11
