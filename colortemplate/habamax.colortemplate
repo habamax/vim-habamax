@@ -224,7 +224,7 @@ WarningMsg         color09        none
 
 Todo               color11        color00        reverse
 MatchParen         color15        color06
-Search             color15        colorlC
+Search             color15        color10
 IncSearch          color15        colorC
 WildMenu           color00        color11
 
