@@ -79,7 +79,7 @@ Visual             color00        color06
 VisualNOS          color00        color06
 
 Pmenu              none           colorB
-PmenuThumb         none           color07
+PmenuThumb         none           color08
 PmenuSbar          none           none
 PmenuSel           color00        color03
 
@@ -210,7 +210,7 @@ LineNr             colorNonT      none
 NonText            colorNonT      none
 
 Pmenu              none           colorB
-PmenuThumb         none           color08
+PmenuThumb         none           color07
 PmenuSbar          none           none
 PmenuSel           color00        color11
 
