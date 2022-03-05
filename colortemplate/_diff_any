@@ -4,11 +4,12 @@ Variant:    gui 256 16
 
 Background: dark
 
+Color: bgDiffC     #5F87AF        67             darkblue
 Color: bgDiffA     #5F875F        65             darkgreen
-Color: bgDiffC     #5F87AF        67             blue
-Color: bgDiffD     #AF5FAF        133            magenta
-Color: bgDiffT     #00AFAF        37             darkcyan
-Color: fgDiff      #000000        16             black
+Color: bgDiffD     #AF5FAF        133            darkmagenta
+Color: bgDiffT     #5FAFAF        73             darkcyan
+
+Color: fgDiff      #FFFFFF        231            white
 
 DiffAdd            fgDiff         bgDiffA
 DiffChange         fgDiff         bgDiffC
@@ -18,11 +19,12 @@ DiffDelete         fgDiff         bgDiffD
 
 Background: light
 
-Color: bgDiffA     #5F875F        65             darkgreen
-Color: bgDiffC     #5F87AF        67             blue
-Color: bgDiffD     #AF5FAF        133            magenta
-Color: bgDiffT     #00AFAF        37             darkcyan
-Color: fgDiff      #FFFFFF        231            white
+Color: bgDiffA     #87AF87        108            green
+Color: bgDiffC     #87AFD7        110            blue
+Color: bgDiffD     #D787D7        176            magenta
+Color: bgDiffT     #5FD7D7        80             cyan
+
+Color: fgDiff      #000000        16             black
 
 DiffAdd            fgDiff         bgDiffA
 DiffChange         fgDiff         bgDiffC
