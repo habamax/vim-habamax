@@ -105,8 +105,8 @@ Cursor             color00        colorC
 lCursor            color00        colorlC
 
 Variant: 16
-CursorLine         none           color11
-CursorColumn       color00        color11
+CursorLine         none           color03
+CursorColumn       color00        color03
 Folded             color00        color03
 ColorColumn        color00        color03
 
