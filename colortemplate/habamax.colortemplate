@@ -6,7 +6,6 @@ Author: Maxim Kim <habamax@gmail.com>
 
 
 ;;; Links
-ErrorMsg           -> Error
 FoldColumn         -> LineNr
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
@@ -14,8 +13,6 @@ Terminal           -> Normal
 StatuslineTerm     -> Statusline
 StatuslineTermNC   -> StatuslineNC
 TabLineFill        -> TabLine
-EndOfBuffer        -> NonText
-SpecialKey         -> NonText
 Debug              -> Special
 
 
@@ -74,6 +71,8 @@ QuickFixLine       color00        color04
 CursorLineNr       colorC         none           g=bold
 LineNr             colorNonT      none
 NonText            colorNonT      none
+EndOfBuffer        colorNonT      none
+SpecialKey         colorNonT      none
 
 Visual             color00        color14
 VisualNOS          color00        color06
@@ -86,6 +85,7 @@ PmenuSel           color00        color03
 SignColumn         none           none
 
 Error              color01        color00        reverse
+ErrorMsg           color01        color00        reverse
 ModeMsg            color00        color11
 MoreMsg            color02        none
 Question           color03        none
@@ -208,6 +208,8 @@ QuickFixLine       color15        color12
 CursorLineNr       colorC         none           g=bold
 LineNr             colorNonT      none
 NonText            colorNonT      none
+EndOfBuffer        colorNonT      none
+SpecialKey         colorNonT      none
 
 Pmenu              none           colorB
 PmenuThumb         none           color07
@@ -217,6 +219,7 @@ PmenuSel           color00        color11
 SignColumn         none           none
 
 Error              color01        color15        reverse
+ErrorMsg           color01        color15        reverse
 ModeMsg            color00        color11
 MoreMsg            color02        none
 Question           color03        none
