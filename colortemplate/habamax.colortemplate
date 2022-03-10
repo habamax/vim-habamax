@@ -5,17 +5,6 @@ Description: Hubba hubba hubba.
 Author: Maxim Kim <habamax@gmail.com>
 
 
-;;; Links
-FoldColumn         -> LineNr
-LineNrAbove        -> LineNr
-LineNrBelow        -> LineNr
-Terminal           -> Normal
-StatuslineTerm     -> Statusline
-StatuslineTermNC   -> StatuslineNC
-TabLineFill        -> TabLine
-Debug              -> Special
-
-
 Background: dark
 
 ;;; Color palette
@@ -56,12 +45,16 @@ Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 Variant: gui 256 16
 
 Normal             color15        color00
+Terminal           color15        color00
 
 Statusline         color00        color07
+StatuslineTerm     color00        color07
+StatuslineTermNC   color00        color08
 StatuslineNC       color00        color08
 VertSplit          color08        color08
 
 TabLine            color00        color08
+TabLineFill        color00        color08
 TabLineSel         none           none
 
 ToolbarLine        none           none
@@ -70,7 +63,10 @@ ToolbarButton      color15        colorNonT
 QuickFixLine       color00        color04
 CursorLineNr       colorC         none           g=bold
 LineNr             colorNonT      none
+LineNrAbove        colorNonT      none
+LineNrBelow        colorNonT      none
 NonText            colorNonT      none
+FoldColumn         colorNonT      none
 EndOfBuffer        colorNonT      none
 SpecialKey         colorNonT      none
 
@@ -150,6 +146,7 @@ Directory          color04        none           g=bold
 Conceal            color08        none
 Ignore             none           none
 
+Debug              color06        none
 
 
 Background: light
@@ -194,11 +191,14 @@ Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 Variant: gui 256 16
 
 Normal             color00        color15
+Terminal           color00        color15
 
 Statusline         color15        color08
+StatuslineTerm     color15        color08
 VertSplit          color07        color07
 
 TabLine            none           color07
+TabLineFill        none           color07
 TabLineSel         none           none
 
 ToolbarLine        none           none
@@ -207,7 +207,10 @@ ToolbarButton      color00        colorNonT
 QuickFixLine       color15        color12
 CursorLineNr       colorC         none           g=bold
 LineNr             colorNonT      none
+LineNrAbove        colorNonT      none
+LineNrBelow        colorNonT      none
 NonText            colorNonT      none
+FoldColumn         colorNonT      none
 EndOfBuffer        colorNonT      none
 SpecialKey         colorNonT      none
 
@@ -242,6 +245,7 @@ lCursor            color00        colorlC
 Variant: 16
 
 StatuslineNC       color00        color07
+StatuslineTermNC   color00        color07
 Visual             color00        color14
 VisualNOS          color00        color14
 CursorLine         none           color11
@@ -298,6 +302,7 @@ Directory          color04        none           g=bold
 Conceal            color08        none
 Ignore             none           none
 
+Debug              color14        none
 
 ; Diff colors
 Include: _diff_any
