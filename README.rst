@@ -2,8 +2,6 @@
                           habamax colorscheme for vim
 ********************************************************************************
 
-Dark or light colors depending on ``&background``.
-
 Same colors for GUI and TUI with standard 256 color palette support.
 
 .. image:: https://user-images.githubusercontent.com/234774/148371449-73daa070-e6d2-4549-b0e4-1c7e824ac38e.png
