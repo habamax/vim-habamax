@@ -37,7 +37,6 @@ Color: colorB      #262626        235            darkgrey
 Color: colorNonT   #585858        240            darkgrey
 Color: colorC      #FFAF5F        215            red
 Color: colorlC     #5FFF00        ~
-Color: color05pre  #AF8787        138            darkyellow
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
