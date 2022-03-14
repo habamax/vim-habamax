@@ -141,7 +141,7 @@ Special            color06        none
 
 Underlined         color12        none           underline
 
-Title              color03        none           g=bold
+Title              color11        none           g=bold
 Directory          color04        none           g=bold
 
 Conceal            color08        none
