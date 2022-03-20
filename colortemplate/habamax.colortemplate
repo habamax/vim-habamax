@@ -41,8 +41,8 @@ Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 
 Background: dark
 
-Include: _links_ft
-Include: _plugs_def
+Include: _habamax/_links_ft
+Include: _habamax/_plugs_def
 
 ;;; chrome
 Variant: gui 256 16
@@ -158,7 +158,7 @@ Debug              color06        none
 
 
 ; Diff colors
-Include: _diff
+Include: _habamax/_diff
 
 
 ; No color support
