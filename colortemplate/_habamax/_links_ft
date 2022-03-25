@@ -31,3 +31,4 @@ elixirExceptionDefine               -> Statement
 elixirCallbackDefine                -> Statement
 elixirStructDefine                  -> Statement
 elixirExUnitMacro                   -> Statement
+elixirInclude                       -> Statement
