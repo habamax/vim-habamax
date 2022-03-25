@@ -21,8 +21,6 @@ ModeMsg              color00        color11
 MoreMsg              color02        none
 Question             color03        none
 
-MatchParen           color06        color00        reverse
-
 WildMenu             color00        color11
 
 
