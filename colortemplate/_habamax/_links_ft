@@ -1,6 +1,8 @@
 ; vim: ft=colortemplate cc=22,37,52 vsts=21,15,15,4
 
 ;;; ft links
+javaScriptFunction                  -> Statement
+javaScriptIdentifier                -> Statement
 sqlKeyword                          -> Statement
 yamlBlockMappingKey                 -> Statement
 rubyMacro                           -> Statement
