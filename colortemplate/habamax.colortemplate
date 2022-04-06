@@ -34,14 +34,14 @@ Identifier           color14        none
 
 Statement            color05        none
 PreProc              color03        none
-Type                 color04        none
+Type                 color12        none
 
 Special              color06        none
 
 Underlined           color12        none           underline
 
 Title                color11        none           g=bold
-Directory            color04        none           g=bold
+Directory            color14        none           g=bold
 
 Conceal              color08        none
 Ignore               none           none
