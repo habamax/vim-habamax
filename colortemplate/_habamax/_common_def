@@ -55,6 +55,7 @@ Todo                 color11        color00        reverse
 MatchParen           color06        color00        reverse
 Search               color00        color02
 IncSearch            color00        colorC
+CurSearch            color00        color03
 WildMenu             color00        color11
 
 debugPC              color00        color04
