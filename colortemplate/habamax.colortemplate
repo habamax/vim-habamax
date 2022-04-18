@@ -40,8 +40,8 @@ Special              color06        none
 
 Underlined           color12        none           underline
 
-Title                color11        none           g=bold
-Directory            color14        none           g=bold
+Title                color11        none           bold
+Directory            color14        none           bold
 
 Conceal              color08        none
 Ignore               none           none
