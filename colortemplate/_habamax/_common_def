@@ -18,6 +18,7 @@ TabLineSel           none           none
 
 ToolbarLine          none           none
 ToolbarButton        color15        colorNonT
+QuickFixLine         color00        color04
 
 CursorLineNr         colorC         none           bold
 LineNr               colorNonT      none
@@ -88,3 +89,72 @@ SpellBad             color01        none           t=underline g=undercurl s=col
 SpellCap             color04        none           t=underline g=undercurl s=color04
 SpellLocal           color02        none           t=underline g=undercurl s=color02
 SpellRare            color13        none           t=underline g=undercurl s=color13
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+Variant: 8
+
+Normal               color07        color00
+Terminal             color07        color00
+
+Statusline           color00        color07
+StatuslineNC         color00        color07
+StatuslineTerm       color00        color07
+StatuslineTermNC     color00        color07
+VertSplit            color00        color07
+
+TabLine              color00        color07
+TabLineFill          color00        color07
+TabLineSel           none           none
+
+ToolbarLine          none           none
+ToolbarButton        color00        color07
+QuickFixLine         color00        color04
+
+CursorLineNr         color03        none           bold
+LineNr               color07        none           bold
+LineNrAbove          color07        none           bold
+LineNrBelow          color07        none           bold
+NonText              color07        none           bold
+EndOfBuffer          color07        none           bold
+SpecialKey           color07        none           bold
+FoldColumn           color07        none           bold
+
+Visual               none           none           reverse
+VisualNOS            none           none           reverse
+
+Pmenu                color00        color07
+PmenuThumb           color07        color00
+PmenuSbar            none           color07
+PmenuSel             color00        color03
+
+SignColumn           none           none
+
+Error                color01        color00        reverse
+ErrorMsg             color01        color00        reverse
+ModeMsg              color00        color03
+MoreMsg              color02        none
+Question             color03        none
+WarningMsg           color01        none
+
+Todo                 color03        color00        reverse
+MatchParen           color06        color00        reverse
+Search               color00        color02
+IncSearch            color00        color03
+CurSearch            color00        color03
+WildMenu             color00        color03
+
+debugPC              color00        color04
+debugBreakpoint      color00        color06
+
+CursorLine           none           none           underline
+CursorColumn         color00        color03
+Folded               color00        color03
+ColorColumn          color00        color03
+
+SpellBad             color01        none           underline
+SpellCap             color04        none           underline
+SpellLocal           color02        none           underline
+SpellRare            color05        none           underline
