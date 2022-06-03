@@ -8,6 +8,7 @@ Include: _habamax/_palette
 
 Background: dark
 
+Include: _habamax/_links
 Include: _habamax/_links_ft
 Include: _habamax/_plugs_def
 Include: _habamax/_common_def
