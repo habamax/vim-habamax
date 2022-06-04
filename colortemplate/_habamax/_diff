@@ -14,16 +14,9 @@ DiffChange         none           bgDiffC
 DiffText           none           bgDiffT
 DiffDelete         none           bgDiffD
 
-Variant:           256 16
+Variant:           256 16 8
 
 DiffAdd            fgDiff         bgDiffA
 DiffChange         fgDiff         bgDiffC
 DiffText           fgDiff         bgDiffT
 DiffDelete         fgDiff         bgDiffD
-
-Variant:           8
-
-DiffAdd            fgDiffB        bgDiffA
-DiffChange         fgDiffB        bgDiffC
-DiffText           fgDiffB        bgDiffT
-DiffDelete         fgDiffB        bgDiffD
