@@ -102,18 +102,18 @@ Variant: 8
 
 Normal               color07        color00
 
-Statusline           color00        color07
-StatuslineNC         color00        color07
-StatuslineTerm       color00        color07
-StatuslineTermNC     color00        color07
-VertSplit            color00        color07
+Statusline           color07        color00        reverse,bold
+StatuslineNC         color07        color00        reverse
+StatuslineTerm       color07        color00        reverse,bold
+StatuslineTermNC     color07        color00        reverse
+VertSplit            color07        color07
 
 TabLine              color00        color07
 TabLineFill          color00        color07
 TabLineSel           none           none
 
 ToolbarLine          none           none
-ToolbarButton        color00        color07
+ToolbarButton        color07        color00        reverse,bold
 QuickFixLine         color00        color04
 
 CursorLineNr         color03        none           bold
