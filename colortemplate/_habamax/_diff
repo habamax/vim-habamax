@@ -5,10 +5,16 @@ Color: DiffDelete  #af875f        137            darkyellow
 Color: DiffChange  #AFAFAF        145            darkgray
 Color: DiffText    #DFDFDF        254            lightgrey
 Color: black       #000000        16             black
+Color: white       #FFFFFF        231            white
 
 Variant:           gui 256 16 8
-
 DiffAdd            black          DiffAdd
-DiffChange         black          DiffChange
-DiffText           black          DiffText
 DiffDelete         DiffDelete     none
+
+Variant:           gui 256 16
+DiffText           black          DiffText
+DiffChange         black          DiffChange
+
+Variant:           8
+DiffText           white          black          reverse,bold
+DiffChange         black          white
