@@ -21,7 +21,7 @@ TabLineFill          color00        color08
 TabLineSel           none           none
 
 ToolbarLine          none           none
-ToolbarButton        color15        colorNonT
+ToolbarButton        color07        color00        reverse,bold
 QuickFixLine         color00        color04
 
 CursorLineNr         colorC         none           bold
@@ -100,7 +100,7 @@ Statusline           color07        color00        reverse,bold
 StatuslineNC         color07        color00        reverse
 StatuslineTerm       color07        color00        reverse,bold
 StatuslineTermNC     color07        color00        reverse
-VertSplit            color07        color07
+VertSplit            color07        color00        reverse
 
 TabLine              color00        color07
 TabLineFill          color00        color07
