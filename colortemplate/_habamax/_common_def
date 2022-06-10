@@ -129,8 +129,8 @@ PmenuSel             color00        color03
 
 SignColumn           none           none
 
-Error                color01        color00        reverse
-ErrorMsg             color01        color00        reverse
+Error                color01        color07        reverse,bold
+ErrorMsg             color01        color07        reverse,bold
 ModeMsg              color00        color03
 MoreMsg              color02        none
 Question             color03        none
@@ -151,7 +151,7 @@ CursorColumn         color00        color03
 Folded               color00        color03
 ColorColumn          color00        color03
 
-SpellBad             color01        none           underline
-SpellCap             color04        none           underline
-SpellLocal           color02        none           underline
-SpellRare            color05        none           underline
+SpellBad             color01        color07        reverse
+SpellCap             color04        color07        reverse
+SpellLocal           color02        color00        reverse
+SpellRare            color05        color07        reverse
