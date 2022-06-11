@@ -292,7 +292,7 @@ Conceal                 color07        none
 Ignore                  none           none
 Debug                   color06        none
 Variant: gui 256 16
-Underlined              color12        none           underline
+Underlined              none           none           underline
 Title                   color11        none           bold
 Directory               color14        none           bold
 Conceal                 color08        none
