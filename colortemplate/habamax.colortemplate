@@ -307,7 +307,3 @@ DiffChange              black          white
 Variant:                gui 256 16
 DiffText                black          diffText
 DiffChange              black          diffChange
-
-
-; No color support
-Include: _tcozero
