@@ -6,9 +6,15 @@ Author:      Maxim Kim <habamax@gmail.com>
 Website:     https://github.com/habamax/vim-habamax
 License:     Same as Vim
 
+Include: _link_default
+Include: _link_plugin
+
 Background: dark
 
 ;;; Color palette
+Color: colorFg          #bcbcbc        250            white
+Color: colorBg          #1c1c1c        234            black
+
 Color: color00          #1c1c1c        234            black
 Color: color08          #767676        243            darkgray
 
@@ -42,9 +48,9 @@ Color: colorlC          #5fff00        82             green
 Color: colorV           #1f3f5f        109            cyan
 Color: colorMP          #ff00af        199            magenta
 
-Color: diffAdd          #5faf5f        71             darkgreen
-Color: diffDelete       #af5f5f        131            darkred
-Color: diffChange       #5f87af        67             darkblue
+Color: diffAdd          #002f00        71             darkgreen
+Color: diffDelete       #3f1f00        131            darkred
+Color: diffChange       #1f2f3f        67             darkblue
 Color: diffText         #af87af        139            darkmagenta
 
 Color: black            #000000        16             black
@@ -53,252 +59,6 @@ Color: Added            #5fd75f        77             darkgreen
 Color: Changed          #ffaf5f        215            darkyellow
 Color: Removed          #d75f5f        167            darkred
 
-
-Term colors: color00 color01 color02 color03 color04 color05 color06 color07
-Term colors: color08 color09 color10 color11 color12 color13 color14 color15
-
-;;; links
-Terminal                               -> Normal
-StatuslineTerm                         -> Statusline
-StatuslineTermNC                       -> StatuslineNC
-MessageWindow                          -> Pmenu
-PopupSelected                          -> PmenuSel
-
-;;; ft links
-javaScriptFunction                     -> Statement
-javaScriptIdentifier                   -> Statement
-sqlKeyword                             -> Statement
-yamlBlockMappingKey                    -> Statement
-rubyMacro                              -> Statement
-rubyDefine                             -> Statement
-vimVar                                 -> Normal
-vimOper                                -> Normal
-vimSep                                 -> Normal
-vimParenSep                            -> Normal
-vimCommentString                       -> Comment
-markdownUrl                            -> String
-
-
-;;; chrome
-Variant: 8
-Normal                  color07        color00
-Variant: gui 256 16
-Normal                  color15        color00
-
-Variant: 8
-Statusline              color07        color00        reverse,bold
-StatuslineNC            color07        color00        reverse
-VertSplit               color07        color07
-Variant: gui 256 16
-Statusline              color00        color07
-StatuslineNC            color00        color08
-VertSplit               color08        color08
-
-Variant: 8
-TabLine                 color00        color07
-TabLineFill             color07        color07
-TabLineSel              color00        color07        bold
-Variant: gui 256 16
-TabLine                 color00        color08
-TabLineFill             color00        color08
-TabLineSel              color00        color07        bold
-
-Variant: 8
-ToolbarLine             none           none
-ToolbarButton           color07        color00        reverse
-QuickFixLine            color00        color04
-Variant: gui 256 16
-ToolbarLine             none           none
-ToolbarButton           color08        color00        reverse,bold
-QuickFixLine            color00        color04
-
-Variant: 8
-CursorLineNr            color03        none           bold
-LineNr                  color07        none           bold
-LineNrAbove             color07        none           bold
-LineNrBelow             color07        none           bold
-NonText                 color07        none           bold
-EndOfBuffer             color07        none           bold
-SpecialKey              color07        none           bold
-FoldColumn              color07        none           bold
-Variant: gui 256 16
-CursorLineNr            white          none           bold
-LineNr                  colorNonT      none
-LineNrAbove             colorNonT      none
-LineNrBelow             colorNonT      none
-NonText                 colorNonT      none
-EndOfBuffer             colorNonT      none
-SpecialKey              colorNonT      none
-FoldColumn              colorNonT      none
-
-Variant: 8
-Visual                  color00        color06
-VisualNOS               color00        color06
-Variant: gui 256 16
-Visual                  color14        color00        reverse
-VisualNOS               color00        color06
-
-Variant: 8
-Pmenu                   color00        color07
-PmenuThumb              color07        color00
-PmenuSbar               none           color07
-PmenuSel                color00        color03
-PmenuKind               color01        color07
-PmenuKindSel            color01        color03
-PmenuExtra              color00        color07
-PmenuExtraSel           color00        color03
-PmenuMatch              color00        color07        bold
-PmenuMatchSel           color00        color03        bold
-Variant: 16
-Pmenu                   color00        color07
-PmenuThumb              color07        color00
-PmenuSbar               none           color07
-PmenuSel                color00        color03
-PmenuKind               color01        color07
-PmenuKindSel            color01        color03
-PmenuExtra              color08        color07
-PmenuExtraSel           color00        color03
-PmenuMatch              color00        color07        bold
-PmenuMatchSel           color00        color03        bold
-Variant: gui 256
-Pmenu                   none           colorB
-PmenuThumb              none           color08
-PmenuSbar               none           none
-PmenuSel                none           colorNonT
-PmenuKind               color06        colorB
-PmenuKindSel            color06        colorNonT
-PmenuExtra              color08        colorB
-PmenuExtraSel           color07        colorNonT
-PmenuMatch              colorC         colorB
-PmenuMatchSel           colorC         colorNonT
-
-Variant: 8
-SignColumn              none           none
-Error                   color01        color07        bold,reverse
-ErrorMsg                color01        color07        bold,reverse
-ModeMsg                 none           none           bold
-MoreMsg                 color02        none
-Question                color03        none
-WarningMsg              color01        none
-Variant: gui 256 16
-SignColumn              none           none
-Error                   color01        color00        reverse
-ErrorMsg                color01        color00        reverse
-ModeMsg                 none           none           bold
-MoreMsg                 color02        none
-Question                color11        none
-WarningMsg              color09        none
-
-Variant: 8
-Todo                    color07        none           bold
-MatchParen              colorMP        none           bold
-Search                  color00        color04
-IncSearch               color00        color03
-CurSearch               color00        color03
-WildMenu                color00        color03
-Variant: gui 256 16
-Todo                    white          none           bold
-MatchParen              colorMP        none           bold
-Search                  color12        color00        reverse
-IncSearch               colorC         color00        reverse
-CurSearch               colorC         color00        reverse
-WildMenu                color00        color11        bold
-
-Variant: 8
-debugPC                 color00        color04
-debugBreakpoint         color00        color06
-Variant: gui 256 16
-debugPC                 color00        color04
-debugBreakpoint         color00        color09
-
-Variant: gui
-Cursor                  black          white
-lCursor                 color00        colorlC
-
-Variant: 8
-CursorLine              none           none           underline
-CursorColumn            color00        color03
-Folded                  color00        color03
-ColorColumn             color00        color03
-Variant: 16
-CursorLine              none           none           underline
-CursorColumn            color00        color03
-Folded                  color00        color03
-ColorColumn             color00        color03
-Variant: gui 256
-CursorLine              none           colorLine
-CursorColumn            none           colorLine
-Folded                  color07        colorF
-ColorColumn             none           colorB
-
-Variant: 8
-SpellBad                color01        color07        reverse
-SpellCap                color04        color07        reverse
-SpellLocal              color02        color00        reverse
-SpellRare               color05        color07        reverse
-Variant: 256 16
-SpellBad                Removed        none           t=underline g=undercurl s=Removed
-SpellCap                Changed        none           t=underline g=undercurl s=Changed
-SpellLocal              Added          none           t=underline g=undercurl s=Added
-SpellRare               color13        none           t=underline g=undercurl s=color13
-Variant: gui
-SpellBad                none           none           t=underline g=undercurl s=Removed
-SpellCap                none           none           t=underline g=undercurl s=Changed
-SpellLocal              none           none           t=underline g=undercurl s=Added
-SpellRare               none           none           t=underline g=undercurl s=color13
-
-
-;;; :h group-names
-Variant: 8
-Comment                 color07        none           bold
-Constant                color01        none
-String                  color02        none
-Character               color02        none
-Identifier              color07        none
-Variant: gui 256 16
-Comment                 color08        none
-Constant                color09        none
-String                  color02        none
-Character               color10        none
-Identifier              color14        none
-
-Variant: 8
-Statement               color05        none
-PreProc                 color03        none
-Type                    color04        none
-Special                 color06        none
-Variant: gui 256 16
-Statement               color05        none
-PreProc                 color03        none
-Type                    color04        none
-Special                 color06        none
-
-Variant: 8
-Underlined              none           none           underline
-Title                   none           none           bold
-Directory               color06        none           bold
-Conceal                 color07        none
-Ignore                  none           none
-Debug                   color06        none
-Variant: gui 256 16
-Underlined              none           none           underline
-Title                   none           none           bold
-Directory               color14        none           bold
-Conceal                 colorNonT      none
-Ignore                  none           none
-Debug                   color06        none
-
-
-Variant:                gui 256 16 8
-DiffAdd                 diffAdd        none           reverse
-DiffChange              diffChange     none           reverse
-DiffText                diffText       none           reverse
-DiffDelete              diffDelete     none           reverse
-
-Added                   Added          none
-Changed                 Changed        none
-Removed                 Removed        none
-
-
-; No color support
-Include: _tcozero
+Include: _base_habamax
+Include: _tco8
+Include: _tco0
