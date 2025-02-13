@@ -137,6 +137,9 @@ hi DiffAdd guifg=NONE guibg=#002f00 gui=NONE cterm=NONE
 hi DiffChange guifg=NONE guibg=#1f2f3f gui=NONE cterm=NONE
 hi DiffText guifg=#1c1c1c guibg=#af87af gui=NONE cterm=NONE
 hi DiffDelete guifg=#767676 guibg=#3f1f00 gui=NONE cterm=NONE
+hi Added guifg=#5fd75f guibg=NONE gui=NONE cterm=NONE
+hi Changed guifg=#ffaf5f guibg=NONE gui=NONE cterm=NONE
+hi Removed guifg=#d75f5f guibg=NONE gui=NONE cterm=NONE
 
 if s:t_Co >= 256
   hi Normal ctermfg=250 ctermbg=234 cterm=NONE
