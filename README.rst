@@ -5,9 +5,11 @@
 Colorscheme `habamax` is included into vim since 9.0.133 and is in `vim/colorschemes`_.
 
 habamax
+
 .. image:: https://github.com/user-attachments/assets/010c24c9-f433-4178-9476-4bd7c96ebbef
 
 xamabah
+
 .. image:: https://github.com/user-attachments/assets/d57c410f-7355-4fa5-9eaf-d64633c56554
 
 
