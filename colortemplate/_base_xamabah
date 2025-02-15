@@ -14,7 +14,7 @@ StatuslineNC                   colorBg        colorStIn
 VertSplit                      colorStIn      colorStIn
 
 TabLine                        colorBg        colorStIn
-TabLineFill                    colorStIn      colorStIn
+TabLineFill                    colorBg        colorStIn
 TabLineSel                     colorBg        colorSt        bold
 
 ToolbarLine                    none           none
