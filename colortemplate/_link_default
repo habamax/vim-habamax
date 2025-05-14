@@ -1,6 +1,8 @@
 ; vim: ft=colortemplate cc=40 vsts=39,4
 ;; default links
 Terminal                               -> Normal
+TabPanelFill                           -> Normal
+TabPanel                               -> Normal
 StatuslineTerm                         -> Statusline
 StatuslineTermNC                       -> StatuslineNC
 LineNrAbove                            -> LineNr
