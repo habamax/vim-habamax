@@ -20,14 +20,19 @@ const tgc = has('termguicolors') && &termguicolors
 g:terminal_ansi_colors = ['#1c1c1c', '#af5f5f', '#5faf5f', '#af875f', '#5f87af', '#af87af', '#5f8787', '#9e9e9e', '#767676', '#d75f87', '#87d787', '#d7af87', '#5fafd7', '#d787d7', '#87afaf', '#bcbcbc']
 
 hi! link CurSearch IncSearch
+hi! link CursorLineFold FoldColumn
+hi! link CursorLineSign FoldColumn
+hi! link Float Number
+hi! link Function Identifier
 hi! link LineNrAbove LineNr
 hi! link LineNrBelow LineNr
-hi! link MessageWindow PMenu
+hi! link MessageWindow Pmenu
+hi! link Number Constant
 hi! link PopupNotification Todo
 hi! link PopupSelected PmenuSel
 hi! link Quote String
-hi! link StatuslineTerm Statusline
-hi! link StatuslineTermNC StatuslineNC
+hi! link StatusLineTerm StatusLine
+hi! link StatusLineTermNC StatusLineNC
 hi! link TabPanel Normal
 hi! link TabPanelFill Normal
 hi! link Terminal Normal
@@ -310,6 +315,8 @@ endif
 
 if t_Co >= 0
   hi CurSearch term=reverse
+  hi CursorLineFold term=underline
+  hi CursorLineSign term=underline
   hi Terminal term=NONE
   finish
 endif
