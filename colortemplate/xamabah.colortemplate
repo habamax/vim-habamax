@@ -69,9 +69,9 @@ Include: _link_plugin
 Normal                  colorFg        colorBg
  /8                     none           none
 
-Statusline              colorBg        colorSt
+StatusLine              colorBg        colorSt
  /8                     color07        color00        reverse,bold
-StatuslineNC            colorBg        colorStIn
+StatusLineNC            colorBg        colorStIn
  /8                     color00        color07
 VertSplit               colorStIn      colorStIn
  /8                     color07        color07

@@ -37,8 +37,8 @@ SpellBad       /0 omit   omit    underline
 SpellCap       /0 omit   omit    underline
 SpellLocal     /0 omit   omit    underline
 SpellRare      /0 omit   omit    underline
-Statusline     /0 omit   omit    reverse,bold
-StatuslineNC   /0 omit   omit    bold,underline
+StatusLine     /0 omit   omit    reverse,bold
+StatusLineNC   /0 omit   omit    bold,underline
 TabLine        /0 omit   omit    underline,bold
 TabLineFill    /0 omit   omit
 Terminal       /0 omit   omit

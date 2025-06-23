@@ -68,9 +68,9 @@ Include: _link_plugin
 Normal                  color15        color00
  /8                     none           none
 
-Statusline              color00        color07
+StatusLine              color00        color07
  /8                     color07        color00        reverse,bold
-StatuslineNC            color00        color08
+StatusLineNC            color00        color08
  /8                     color00        color07
 VertSplit               color08        color08
  /8                     color07        color07
