@@ -1,10 +1,11 @@
 ; vim: cc=25,40,55 vsts=24,15,15,4
-Full name: xamabah
-Short name: xamabah
+Full name:   xamabah
+Short name:  xamabah
 Description: Light background complement to hubba hubba habamax.
-Author: Maxim Kim <habamax@gmail.com>
-URL: https://github.com/habamax/vim-habamax
-License: Same as Vim
+Author:      Maxim Kim <habamax@gmail.com>
+URL:         https://github.com/habamax/vim-habamax
+License:     Same as Vim
+Options:     backend=vim
 
 Background: light
 

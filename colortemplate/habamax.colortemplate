@@ -5,6 +5,7 @@ Description: Hubba hubba hubba.
 Author:      Maxim Kim <habamax@gmail.com>
 URL:         https://github.com/habamax/vim-habamax
 License:     Same as Vim
+Options:     backend=vim
 
 Background: dark
 
