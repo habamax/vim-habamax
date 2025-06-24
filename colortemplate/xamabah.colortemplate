@@ -223,7 +223,7 @@ DiffChange              none           diffChange
  /256/16                diffChange     colorBg          reverse
  /256+tgc true          omit           omit
  /8                     color05        color00        reverse
-DiffText                colorFg        diffText
+DiffText                none           diffText
  /256/16                diffText       colorBg        reverse
  /256+tgc true          omit           omit
  /8                     color04        color00        reverse
