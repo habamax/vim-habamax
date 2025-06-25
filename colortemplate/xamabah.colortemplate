@@ -111,6 +111,7 @@ PmenuSel                none           colorPmenuSel
  /8                     none           none           reverse
 PmenuThumb              none           color08
  /16                    none           color15
+ /8                     none           none           reverse
 PmenuSbar               none           none
 PmenuKind               color09        colorPmenu
  /16                    none           color08
