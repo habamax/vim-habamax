@@ -109,30 +109,24 @@ VisualNOS               color00        color06
  /8                     none           none           reverse
 
 Pmenu                   none           colorB
- /8                     none           color07
+ /16/8                  none           none           reverse
 PmenuThumb              none           color08
  /16/8                  none           none           reverse
 PmenuSbar               none           none
 PmenuSel                none           colorNonT
- /16                    none           color07
- /8                     none           none           reverse
+ /16/8                  none           none           bold
 PmenuKind               color06        colorB
- /16                    none           color08
- /8                     none           color07
+ /16/8                  none           none           reverse,bold
 PmenuKindSel            color06        colorNonT
- /16                    none           color07
- /8                     none           none           reverse
+ /16/8                  none           none           bold
 PmenuExtra              color08        colorB
- /8                     none           color07
+ /16/8                  none           none           reverse
 PmenuExtraSel           color07        colorNonT
- /16                    none           color07
- /8                     none           none           reverse
+ /16/8                  none           none           bold
 PmenuMatch              colorC         colorB
- /16                    none           color07
- /8                     none           none           reverse
+ /16/8                  none           color01        reverse
 PmenuMatchSel           colorC         colorNonT
- /16                    none           color07        reverse
- /8                     none           none           bold,reverse
+ /16/8                  color01        none           bold
 
 SignColumn              none           none
  /8                     none           none
@@ -233,23 +227,6 @@ DiffText                none           diffText
 DiffDelete              color08        diffDelete
  /256                   color08        diffDelete
  /16/8                  color01        color00        reverse
-
-; DiffAdd                 none           diffAdd
-;  /256/16                diffAdd        colorBg        reverse
-;  /256+tgc true          omit           omit
-;  /8                     color04        color00        reverse
-; DiffChange              none           diffChange
-;  /256/16                diffChange     colorBg        reverse
-;  /256+tgc true          omit           omit
-;  /8                     color05        color00        reverse
-; DiffText                none           diffText
-;  /256/16                diffText       colorBg        reverse
-;  /256+tgc true          omit           omit
-;  /8                     color04        color00        reverse
-; DiffDelete              color08        diffDelete
-;  /256/16                diffDelete     colorBg        reverse
-;  /256+tgc true          omit           omit
-;  /8                     color01        color00        reverse
 
 Added                   Added          none
  /8                     color02        none
