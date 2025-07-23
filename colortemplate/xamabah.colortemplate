@@ -50,10 +50,10 @@ Color: colorStIn        #949494        246            darkgrey
 Color: colorV           #97b7d7        66             darkcyan
 
 ; Diff colors
-Color: diffAdd          #b7d7b7        65             green
+Color: diffAdd          #b7c7b7        108            green
 Color: diffDelete       #d7b7b7        131            red
-Color: diffChange       #b7c7d7        67             blue
-Color: diffText         #d7bfd7        96             magenta
+Color: diffChange       #c7c7b7        250            yellow
+Color: diffText         #b7c7c7        109            cyan
 
 Color: Added            #008700        28             green
 Color: Changed          #af5f00        130            yellow
@@ -218,21 +218,17 @@ Conceal                 colorNonT      none
 Ignore                  none           none
 
 DiffAdd                 none           diffAdd
- /256/16                diffAdd        colorBg        reverse
- /256+tgc true          omit           omit
- /8                     color04        color00        reverse
+ /256                   colorFg        diffAdd
+ /16/8                  color02        color00        reverse
 DiffChange              none           diffChange
- /256/16                diffChange     colorBg          reverse
- /256+tgc true          omit           omit
- /8                     color05        color00        reverse
+ /256                   colorFg        diffChange
+ /16/8                  color03        color00        reverse
 DiffText                none           diffText
- /256/16                diffText       colorBg        reverse
- /256+tgc true          omit           omit
- /8                     color04        color00        reverse
+ /256                   colorFg        diffText
+ /16/8                  color04        color00        reverse
 DiffDelete              color08        diffDelete
- /256/16                diffDelete     colorBg        reverse
- /256+tgc true          omit           omit
- /8                     color01        color00        reverse
+ /256                   colorBg        diffDelete
+ /16/8                  color01        color00        reverse
 
 Added                   Added          none
  /8                     color02        none
