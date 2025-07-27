@@ -47,13 +47,13 @@ Color: colorlC          #ff5fff        207            magenta
 Color: colorMP          #ff00af        199            magenta
 Color: colorSt          #626262        241            black
 Color: colorStIn        #949494        246            darkgrey
-Color: colorV           #97b7d7        66             darkcyan
+Color: colorV           #a0c0e0        66             darkcyan
 
 ; Diff colors
 Color: diffAdd          #b7c7b7        108            green
 Color: diffDelete       #d7b7b7        131            red
 Color: diffChange       #c7c7b7        250            yellow
-Color: diffText         #a7c7c7        109            cyan
+Color: diffText         #b7cdcd        109            cyan
 
 Color: Added            #008700        28             green
 Color: Changed          #af5f00        130            yellow
