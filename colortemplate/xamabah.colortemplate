@@ -48,6 +48,8 @@ Color: colorMP          #ff00af        199            magenta
 Color: colorSt          #626262        241            black
 Color: colorStIn        #949494        246            darkgrey
 Color: colorV           #a0c0e0        66             darkcyan
+Color: colorSrch        #b0bcd7        25             darkblue
+Color: colorInc         #d7d0a7        130            yellow
 
 ; Diff colors
 Color: diffAdd          #b7c7b7        108            green
@@ -151,8 +153,12 @@ Todo                    colorFg        none           bold
 MatchParen              colorMP        none           bold
  /16/8                  none           none           bold,underline
 Search                  color04        colorBg        reverse
+ /gui                   none           colorSrch
+ /256+tgc true          omit           omit
  /8                     color00        color02
 IncSearch               color11        colorBg        reverse
+ /gui                   none           colorInc
+ /256+tgc true          omit           omit
  /8                     color00        color03
 WildMenu                color15        color11        bold
  /8                     color00        color03
