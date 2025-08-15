@@ -113,7 +113,7 @@ hi PreProc guifg=#875f00 guibg=NONE guisp=NONE gui=NONE ctermfg=94 ctermbg=NONE 
 hi Question guifg=#875f00 guibg=NONE guisp=NONE gui=NONE ctermfg=94 ctermbg=NONE cterm=NONE term=standout
 hi QuickFixLine guifg=#d7d7d7 guibg=#008787 guisp=NONE gui=NONE ctermfg=188 ctermbg=30 cterm=NONE term=NONE
 hi Removed guifg=#d70000 guibg=NONE guisp=NONE gui=NONE ctermfg=160 ctermbg=NONE cterm=NONE term=NONE
-hi Search guifg=NONE guibg=#b0bcd7 guisp=NONE gui=NONE ctermfg=25 ctermbg=188 cterm=reverse term=reverse
+hi Search guifg=NONE guibg=#c8d0d7 guisp=NONE gui=NONE ctermfg=25 ctermbg=188 cterm=reverse term=reverse
 hi SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
 hi Special guifg=#008787 guibg=NONE guisp=NONE gui=NONE ctermfg=30 ctermbg=NONE cterm=NONE term=NONE
 hi SpecialKey guifg=#8a8a8a guibg=NONE guisp=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE term=bold

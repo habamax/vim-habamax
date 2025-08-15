@@ -48,7 +48,7 @@ Color: colorMP          #ff00af        199            magenta
 Color: colorSt          #626262        241            black
 Color: colorStIn        #949494        246            darkgrey
 Color: colorV           #a0c0e0        66             darkcyan
-Color: colorSrch        #b0bcd7        25             darkblue
+Color: colorSrch        #c8d0d7        25             darkblue
 Color: colorInc         #d7d0a7        130            yellow
 
 ; Diff colors
