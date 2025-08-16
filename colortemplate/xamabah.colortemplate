@@ -48,7 +48,7 @@ Color: colorMP          #ff00af        199            magenta
 Color: colorSt          #626262        241            black
 Color: colorStIn        #949494        246            darkgrey
 Color: colorV           #a0c0e0        66             darkcyan
-Color: colorSrch        #c8d0d7        25             darkblue
+Color: colorSrch        #bed7be        22             darkgreen
 Color: colorInc         #d7d0a7        130            yellow
 
 ; Diff colors
@@ -152,7 +152,7 @@ Todo                    colorFg        none           bold
  /8                     none           none           bold
 MatchParen              colorMP        none           bold
  /16/8                  none           none           bold,underline
-Search                  color04        colorBg        reverse
+Search                  color10        colorBg        reverse
  /gui                   none           colorSrch
  /256+tgc true          omit           omit
  /8                     color00        color02
