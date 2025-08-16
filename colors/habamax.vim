@@ -154,7 +154,7 @@ if s:tgc || s:t_Co >= 256
 endif
 
 if s:t_Co >= 16
-  hi Normal ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Normal ctermfg=gray ctermbg=black cterm=NONE
   hi Added ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi Changed ctermfg=darkyellow ctermbg=NONE cterm=NONE
   hi Character ctermfg=darkgreen ctermbg=NONE cterm=NONE
@@ -232,7 +232,7 @@ if s:t_Co >= 16
 endif
 
 if s:t_Co >= 8
-  hi Normal ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Normal ctermfg=gray ctermbg=black cterm=NONE
   hi Added ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi Changed ctermfg=darkyellow ctermbg=NONE cterm=NONE
   hi Character ctermfg=darkgreen ctermbg=NONE cterm=NONE
