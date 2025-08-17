@@ -54,7 +54,7 @@ Color: diffChange       #37352f        237            darkyellow
 Color: diffText         #0f4f4f        23             darkcyan
 
 Color: black            #000000        16             black
-Color: white            #ffffff        231            white
+Color: white            #dadada        253            white
 Color: Added            #5fd75f        77             darkgreen
 Color: Changed          #ffaf5f        215            darkyellow
 Color: Removed          #d75f5f        167            darkred
