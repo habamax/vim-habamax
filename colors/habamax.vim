@@ -77,10 +77,10 @@ hi ColorColumn guifg=NONE guibg=#3a3a3a guisp=NONE gui=NONE ctermfg=NONE ctermbg
 hi Comment guifg=#767676 guibg=NONE guisp=NONE gui=NONE ctermfg=243 ctermbg=NONE cterm=NONE term=bold
 hi Conceal guifg=#585858 guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE term=NONE
 hi Constant guifg=#d75f87 guibg=NONE guisp=NONE gui=NONE ctermfg=168 ctermbg=NONE cterm=NONE term=NONE
-hi Cursor guifg=#000000 guibg=#dadada guisp=NONE gui=NONE ctermfg=16 ctermbg=253 cterm=NONE term=reverse
+hi Cursor guifg=#000000 guibg=#ffffff guisp=NONE gui=NONE ctermfg=16 ctermbg=231 cterm=NONE term=reverse
 hi CursorColumn guifg=NONE guibg=#303030 guisp=NONE gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE term=NONE
 hi CursorLine guifg=NONE guibg=#303030 guisp=NONE gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE term=underline
-hi CursorLineNr guifg=#dadada guibg=NONE guisp=NONE gui=bold ctermfg=253 ctermbg=NONE cterm=bold term=bold
+hi CursorLineNr guifg=#ffffff guibg=NONE guisp=NONE gui=bold ctermfg=231 ctermbg=NONE cterm=bold term=bold
 hi Debug guifg=#5f8787 guibg=NONE guisp=NONE gui=NONE ctermfg=66 ctermbg=NONE cterm=NONE term=NONE
 hi DiffAdd guifg=NONE guibg=#273923 guisp=NONE gui=NONE ctermfg=247 ctermbg=22 cterm=NONE term=reverse
 hi DiffChange guifg=NONE guibg=#37352f guisp=NONE gui=NONE ctermfg=247 ctermbg=237 cterm=NONE term=NONE
@@ -130,7 +130,7 @@ hi TabLine guifg=#1c1c1c guibg=#767676 guisp=NONE gui=NONE ctermfg=234 ctermbg=2
 hi TabLineFill guifg=#1c1c1c guibg=#767676 guisp=NONE gui=NONE ctermfg=234 ctermbg=243 cterm=NONE term=NONE
 hi TabLineSel guifg=#1c1c1c guibg=#9e9e9e guisp=NONE gui=bold ctermfg=234 ctermbg=247 cterm=bold term=bold,reverse
 hi Title guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=NONE
-hi Todo guifg=#dadada guibg=NONE guisp=NONE gui=bold ctermfg=253 ctermbg=NONE cterm=bold term=bold,reverse
+hi Todo guifg=#ffffff guibg=NONE guisp=NONE gui=bold ctermfg=231 ctermbg=NONE cterm=bold term=bold,reverse
 hi ToolbarButton guifg=#767676 guibg=#1c1c1c guisp=NONE gui=bold,reverse ctermfg=243 ctermbg=234 cterm=bold,reverse term=bold,reverse
 hi ToolbarLine guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
 hi Type guifg=#5f87af guibg=NONE guisp=NONE gui=NONE ctermfg=67 ctermbg=NONE cterm=NONE term=NONE
