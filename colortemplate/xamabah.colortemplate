@@ -106,32 +106,24 @@ EndOfBuffer             colorNonT      none
  /8                     none           none
 
 Pmenu                   none           colorPmenu
- /16                    none           color08
- /8                     none           color07
+ /16/8                  none           none           reverse
 PmenuSel                none           colorPmenuSel
- /16                    none           color15
- /8                     none           none           reverse
+ /16/8                  color03        none           reverse
 PmenuThumb              none           color08
- /16                    none           color15
- /8                     none           none           reverse
+ /16/8                  none           none           reverse
 PmenuSbar               none           none
 PmenuKind               color09        colorPmenu
- /16                    none           color08
- /8                     none           color07
+ /16/8                  none           none           reverse,bold
 PmenuKindSel            color01        colorPmenuSel
- /16                    none           color15        bold
- /8                     none           none           reverse
+ /16/8                  none           none           bold
 PmenuExtra              color08        colorPmenu
- /16                    none           color08
- /8                     none           color07
+ /16/8                  none           none           reverse
 PmenuExtraSel           color08        colorPmenuSel
- /16                    none           color15        bold
- /8                     none           none           reverse
+ /16/8                  none           none           bold
 PmenuMatch              color11        colorPmenu
- /8                     none           none           reverse
+ /16/8                  none           none           bold
 PmenuMatchSel           color11        colorPmenuSel
- /16                    none           color15        bold
- /8                     none           none           bold,reverse
+ /16/8                  color03        none           bold
 
 SignColumn              none           none
  /8                     none           none
