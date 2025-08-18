@@ -44,7 +44,7 @@ Color: colorNonT        #585858        240            darkgrey
 Color: colorC           #ffaf5f        215            red
 Color: colorlC          #5fff00        82             green
 Color: colorV           #1a3456        24             cyan
-Color: colorSrch        #2f4f6f        74             blue
+Color: colorSrch        #374a44        114            green
 Color: colorInc         #5a4a45        215            yellow
 Color: colorMP          #ff00af        199            magenta
 
@@ -151,7 +151,7 @@ MatchParen              colorMP        none           bold
 Search                  colorSrch      color00        reverse
  /gui                   none           colorSrch
  /256+tgc true          omit           omit
- /8                     color00        color04
+ /8                     color00        color02
 IncSearch               colorInc       color00        reverse
  /gui                   none           colorInc
  /256+tgc true          omit           omit
