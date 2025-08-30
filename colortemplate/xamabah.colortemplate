@@ -50,6 +50,8 @@ Color: colorStIn        #949494        246            darkgrey
 Color: colorV           #a0c0e0        66             darkcyan
 Color: colorSrch        #bed7be        22             darkgreen
 Color: colorInc         #d7d0a7        130            yellow
+Color: colorErr         #ff7f8f        197            red
+Color: colorQF          #e7afe7        90             darkmagenta
 
 ; Diff colors
 Color: diffAdd          #b7c7b7        108            green
@@ -90,8 +92,8 @@ ToolbarLine             none           none
 ToolbarButton           colorBg        colorSt        bold
  /8                     color07        color00        reverse
 
-QuickFixLine            colorBg        color14
- /8                     colorBg        color04
+QuickFixLine            none           colorQF
+ /256/16/8              colorBg        colorQF
 CursorLineNr            none           none           bold
 LineNr                  colorNonT      none
  /16/8                  none           none
@@ -128,8 +130,10 @@ PmenuMatchSel           color11        colorPmenuSel
 SignColumn              none           none
  /8                     none           none
 
-Error                   color01        colorBg        reverse
- /8                     color01        color00        reverse
+Error                   colorErr       colorBg        reverse
+ /gui                   none           colorErr
+ /256+tgc true          omit           omit
+ /8                     colorErr       color00        reverse
 ErrorMsg                color01        colorBg        reverse
  /8                     color01        color00        reverse
 ModeMsg                 none           none           bold
