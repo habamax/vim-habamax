@@ -51,7 +51,7 @@ Color: colorV           #a0c0e0        66             darkcyan
 Color: colorSrch        #bed7be        22             darkgreen
 Color: colorInc         #d7d0a7        130            yellow
 Color: colorErr         #ff7f8f        197            red
-Color: colorQF          #87afaf        30             cyan
+Color: colorQF          #c7afc7        182            magenta
 
 ; Diff colors
 Color: diffAdd          #b7c7b7        108            green
@@ -93,7 +93,9 @@ ToolbarButton           colorBg        colorSt        bold
  /8                     color07        color00        reverse
 
 QuickFixLine            colorFg        colorQF
- /256/16/8              colorBg        colorQF
+ /gui                   none           colorQF
+ /256+tgc true          omit           omit
+ /16/8                  colorBg        colorQF
 CursorLineNr            none           none           bold
 LineNr                  colorNonT      none
  /16/8                  none           none
