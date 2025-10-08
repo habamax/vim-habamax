@@ -131,6 +131,8 @@ hi TabLine guifg=#d7d7d7 guibg=#949494 guisp=NONE gui=NONE ctermfg=188 ctermbg=2
 hi TabLineFill guifg=#d7d7d7 guibg=#949494 guisp=NONE gui=NONE ctermfg=188 ctermbg=246 cterm=NONE term=NONE
 hi TabLineSel guifg=#d7d7d7 guibg=#626262 guisp=NONE gui=bold ctermfg=188 ctermbg=241 cterm=bold term=bold,reverse
 hi Title guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=NONE
+hi TitleBar guifg=#000000 guibg=#bcbcbc guisp=NONE gui=NONE ctermfg=16 ctermbg=250 cterm=NONE term=NONE
+hi TitleBarNC guifg=#626262 guibg=#cccccc guisp=NONE gui=NONE ctermfg=241 ctermbg=252 cterm=NONE term=NONE
 hi Todo guifg=#000000 guibg=NONE guisp=NONE gui=bold ctermfg=16 ctermbg=NONE cterm=bold term=bold,reverse
 hi ToolbarButton guifg=#d7d7d7 guibg=#626262 guisp=NONE gui=bold ctermfg=188 ctermbg=241 cterm=bold term=bold,reverse
 hi ToolbarLine guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
@@ -222,6 +224,8 @@ if s:t_Co >= 16
   hi TabLineFill ctermfg=gray ctermbg=darkgrey cterm=NONE
   hi TabLineSel ctermfg=gray ctermbg=black cterm=bold
   hi Title ctermfg=NONE ctermbg=NONE cterm=bold
+  hi TitleBar ctermfg=black ctermbg=white cterm=NONE
+  hi TitleBarNC ctermfg=black ctermbg=white cterm=NONE
   hi Todo ctermfg=black ctermbg=NONE cterm=bold
   hi ToolbarButton ctermfg=gray ctermbg=black cterm=bold
   hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -300,6 +304,8 @@ if s:t_Co >= 8
   hi TabLineFill ctermfg=grey ctermbg=grey cterm=NONE
   hi TabLineSel ctermfg=black ctermbg=grey cterm=bold
   hi Title ctermfg=NONE ctermbg=NONE cterm=bold
+  hi TitleBar ctermfg=black ctermbg=white cterm=NONE
+  hi TitleBarNC ctermfg=black ctermbg=white cterm=NONE
   hi Todo ctermfg=NONE ctermbg=NONE cterm=bold
   hi ToolbarButton ctermfg=grey ctermbg=black cterm=reverse
   hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE

@@ -59,6 +59,9 @@ Color: diffDelete       #d7b7b7        131            red
 Color: diffChange       #c7c7b7        250            yellow
 Color: diffText         #b7cdcd        109            cyan
 
+Color: colorTitle       #bcbcbc        250            white
+Color: colorTitleNC     #cccccc        252            white
+
 Color: Added            #008700        28             green
 Color: Changed          #af5f00        130            yellow
 Color: Removed          #d70000        160            red
@@ -147,6 +150,9 @@ Question                color03        none
  /8                     color03        none
 WarningMsg              color09        none
  /8                     color01        none
+
+TitleBar                colorFg        colorTitle
+TitleBarNC              colorSt        colorTitleNC
 
 Todo                    colorFg        none           bold
  /8                     none           none           bold
