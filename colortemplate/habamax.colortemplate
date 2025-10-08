@@ -55,8 +55,8 @@ Color: diffDelete       #2f1f1a        52             darkred
 Color: diffChange       #37352f        237            darkyellow
 Color: diffText         #0f4f4f        23             darkcyan
 
-Color: colorTitle       #3c3c3c       237            black
-Color: colorTitleNC     #2c2c2c       236            black
+Color: colorTitle       #3c3c3c        237            black
+Color: colorTitleNC     #2c2c2c        236            black
 
 Color: black            #000000        16             black
 Color: white            #dadada        253            white
