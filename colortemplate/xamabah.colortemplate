@@ -111,6 +111,8 @@ EndOfBuffer             colorNonT      none
 
 Pmenu                   none           colorPmenu
  /16/8                  none           none           reverse
+PmenuBorder             color08        colorPmenu
+ /16/8                  none           none           reverse
 PmenuSel                none           colorPmenuSel
  /16/8                  color03        none           reverse
 PmenuThumb              none           color08
