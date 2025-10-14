@@ -62,6 +62,8 @@ Color: diffText         #b7cdcd        109            cyan
 Color: colorTitle       #bcbcbc        250            white
 Color: colorTitleNC     #cccccc        252            white
 
+Color: colorShadow      #5f5f5f        59             black
+
 Color: Added            #008700        28             green
 Color: Changed          #af5f00        130            yellow
 Color: Removed          #d70000        160            red
@@ -116,6 +118,8 @@ Pmenu                   none           colorPmenu
  /16/8                  none           none           reverse
 PmenuBorder             color08        colorPmenu
  /16/8                  none           none           reverse
+PmenuShadow             colorNonT      colorShadow
+ /16/8                  none           none
 PmenuSel                none           colorPmenuSel
  /16/8                  color03        none           reverse
 PmenuThumb              none           color08
