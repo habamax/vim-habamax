@@ -110,7 +110,7 @@ hi PmenuMatch guifg=#af5f00 guibg=#eeeeee guisp=NONE gui=NONE ctermfg=130 ctermb
 hi PmenuMatchSel guifg=#af5f00 guibg=#ffffff guisp=NONE gui=NONE ctermfg=130 ctermbg=231 cterm=NONE term=NONE
 hi PmenuSbar guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
 hi PmenuSel guifg=NONE guibg=#ffffff guisp=NONE gui=NONE ctermfg=NONE ctermbg=231 cterm=NONE term=bold
-hi PmenuShadow guifg=#8a8a8a guibg=#5f5f5f guisp=NONE gui=NONE ctermfg=245 ctermbg=59 cterm=NONE term=NONE
+hi PmenuShadow guifg=#8a8a8a guibg=#3f3f3f guisp=NONE gui=NONE ctermfg=245 ctermbg=59 cterm=NONE term=NONE
 hi PmenuThumb guifg=NONE guibg=#767676 guisp=NONE gui=NONE ctermfg=NONE ctermbg=243 cterm=NONE term=NONE
 hi PreProc guifg=#875f00 guibg=NONE guisp=NONE gui=NONE ctermfg=94 ctermbg=NONE cterm=NONE term=NONE
 hi Question guifg=#875f00 guibg=NONE guisp=NONE gui=NONE ctermfg=94 ctermbg=NONE cterm=NONE term=standout
