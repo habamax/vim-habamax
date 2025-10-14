@@ -58,6 +58,8 @@ Color: diffText         #0f4f4f        23             darkcyan
 Color: colorTitle       #3c3c3c        237            black
 Color: colorTitleNC     #2c2c2c        236            black
 
+Color: colorShadow      #121212        233            black
+
 Color: black            #000000        16             black
 Color: white            #dadada        253            white
 Color: Added            #5fd75f        77             darkgreen
@@ -122,6 +124,8 @@ Pmenu                   none           colorB
  /16/8                  none           none           reverse
 PmenuBorder             color08        colorB
  /16/8                  none           none           reverse
+PmenuShadow             color08        colorShadow
+ /16/8                  none           none
 PmenuThumb              none           color08
  /16/8                  none           none           reverse
 PmenuSbar               none           none
