@@ -264,4 +264,7 @@ Changed                 Changed        none
 Removed                 Removed        none
  /8                     color01        none
 
+;; ftplugins
+htmlH1                  white          none           bold
+
 Include: _tcozero
