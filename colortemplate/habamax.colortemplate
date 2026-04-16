@@ -82,7 +82,8 @@ StatusLine              color00        color07
  /8                     color07        color00        reverse,bold
 StatusLineNC            color00        color08
  /8                     color00        color07
-VertSplit               color08        color08
+VertSplit               color07        color07
+VertSplitNC             color08        color08
  /8                     color07        color07
 
 TabLine                 color00        color08

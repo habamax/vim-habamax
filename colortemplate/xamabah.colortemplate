@@ -83,7 +83,9 @@ StatusLine              colorBg        colorSt
  /8                     color07        color00        reverse,bold
 StatusLineNC            colorBg        colorStIn
  /8                     color00        color07
-VertSplit               colorStIn      colorStIn
+VertSplit               colorSt        colorSt
+ /8                     color07        color07
+VertSplitNC             colorStIn      colorStIn
  /8                     color07        color07
 
 TabLine                 colorBg        colorStIn
