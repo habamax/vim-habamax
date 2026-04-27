@@ -96,8 +96,8 @@ TabLineSel              colorBg        colorSt        bold
  /8                     color00        color07        bold
 
 ToolbarLine             none           none
-ToolbarButton           colorBg        colorSt        bold
- /8                     color07        color00        reverse
+ToolbarButton           color14        color07        reverse,bold
+ /16/8                  none           none           reverse,bold
 
 QuickFixLine            colorFg        colorQF
  /gui                   none           colorQF
