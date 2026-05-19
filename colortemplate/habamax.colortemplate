@@ -125,7 +125,7 @@ Popup                   none           colorB
  /16/8                  none           none           reverse
 PopupBorder             color08        colorB
  /16/8                  none           none           reverse
-PopupTitle              white          colorB         bold
+PopupTitle              color07        colorB         bold
  /16/8                  none           none           bold,reverse
 
 Pmenu                   none           colorB
