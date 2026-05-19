@@ -116,6 +116,13 @@ SpecialKey              colorNonT      none
 EndOfBuffer             colorNonT      none
  /8                     none           none
 
+Popup                   none           colorPmenu
+ /16/8                  none           none           reverse
+PopupBorder             color08        colorPmenu
+ /16/8                  none           none           reverse
+PopupTitle              none           colorPmenu     bold
+ /16/8                  none           none           bold,reverse
+
 Pmenu                   none           colorPmenu
  /16/8                  none           none           reverse
 PmenuBorder             color08        colorPmenu
