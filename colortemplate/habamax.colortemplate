@@ -136,7 +136,8 @@ PmenuShadow             color08        colorShadow
  /16/8                  none           none
 PmenuThumb              none           color08
  /16/8                  none           none           reverse
-PmenuSbar               none           none
+PmenuSbar               none           colorNonT
+ /16/8                  none           none
 PmenuSel                none           colorNonT
  /16/8                  none           none           bold
 PmenuKind               color06        colorB
