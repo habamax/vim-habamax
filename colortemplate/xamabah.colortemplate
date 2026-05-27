@@ -133,7 +133,8 @@ PmenuSel                none           colorPmenuSel
  /16/8                  color03        none           reverse
 PmenuThumb              none           color08
  /16/8                  none           none           reverse
-PmenuSbar               none           none
+PmenuSbar               none           color07
+ /16/8                  none           none
 PmenuKind               color09        colorPmenu
  /16/8                  none           none           reverse,bold
 PmenuKindSel            color01        colorPmenuSel
