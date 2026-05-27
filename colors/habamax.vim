@@ -212,10 +212,10 @@ if s:t_Co >= 16
   hi PmenuKindSel ctermfg=NONE ctermbg=NONE cterm=bold
   hi PmenuMatch ctermfg=NONE ctermbg=darkred cterm=reverse
   hi PmenuMatchSel ctermfg=darkred ctermbg=NONE cterm=bold
-  hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=reverse
   hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=bold
   hi PmenuShadow ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
+  hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Popup ctermfg=NONE ctermbg=NONE cterm=reverse
   hi PopupBorder ctermfg=NONE ctermbg=NONE cterm=reverse
   hi PopupTitle ctermfg=NONE ctermbg=NONE cterm=bold,reverse
@@ -299,10 +299,10 @@ if s:t_Co >= 8
   hi PmenuKindSel ctermfg=NONE ctermbg=NONE cterm=bold
   hi PmenuMatch ctermfg=NONE ctermbg=darkred cterm=reverse
   hi PmenuMatchSel ctermfg=darkred ctermbg=NONE cterm=bold
-  hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=reverse
   hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=bold
   hi PmenuShadow ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
+  hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Popup ctermfg=NONE ctermbg=NONE cterm=reverse
   hi PopupBorder ctermfg=NONE ctermbg=NONE cterm=reverse
   hi PopupTitle ctermfg=NONE ctermbg=NONE cterm=bold,reverse
