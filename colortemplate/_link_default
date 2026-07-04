@@ -12,6 +12,8 @@ TabPanel                               -> Normal
 CurSearch                              -> IncSearch
 PopupSelected                          -> PmenuSel
 PopupNotification                      -> Normal
+LineNrAbove                            -> LineNr
+LineNrBelow                            -> LineNr
 CursorLineFold                         -> FoldColumn
 CursorLineSign                         -> FoldColumn
 PreInsert                              -> NonText

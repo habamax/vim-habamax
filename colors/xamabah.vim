@@ -22,6 +22,8 @@ hi! link CursorLineFold FoldColumn
 hi! link CursorLineSign FoldColumn
 hi! link Float Number
 hi! link Function Identifier
+hi! link LineNrAbove LineNr
+hi! link LineNrBelow LineNr
 hi! link MessageWindow Pmenu
 hi! link Number Constant
 hi! link PopupNotification Normal
@@ -97,9 +99,7 @@ hi Folded guifg=#878787 guibg=#e4e4e4 guisp=NONE gui=NONE ctermfg=102 ctermbg=25
 hi Identifier guifg=#005f5f guibg=NONE guisp=NONE gui=NONE ctermfg=23 ctermbg=NONE cterm=NONE term=NONE
 hi Ignore guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=NONE
 hi IncSearch guifg=NONE guibg=#d7d0a7 guisp=NONE gui=NONE ctermfg=130 ctermbg=188 cterm=reverse term=bold,reverse,underline
-hi LineNr guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=NONE
-hi LineNrAbove guifg=#8a8a8a guibg=NONE guisp=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE term=NONE
-hi LineNrBelow guifg=#8a8a8a guibg=NONE guisp=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE term=NONE
+hi LineNr guifg=#8a8a8a guibg=NONE guisp=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE term=NONE
 hi MatchParen guifg=#ff00af guibg=NONE guisp=NONE gui=bold ctermfg=199 ctermbg=NONE cterm=bold term=bold,underline
 hi ModeMsg guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
 hi MoreMsg guifg=#005f00 guibg=NONE guisp=NONE gui=NONE ctermfg=22 ctermbg=NONE cterm=NONE term=NONE
@@ -198,9 +198,7 @@ if s:t_Co >= 16
   hi Identifier ctermfg=darkcyan ctermbg=NONE cterm=NONE
   hi Ignore ctermfg=NONE ctermbg=NONE cterm=NONE
   hi IncSearch ctermfg=yellow ctermbg=gray cterm=reverse
-  hi LineNr ctermfg=NONE ctermbg=NONE cterm=bold
-  hi LineNrAbove ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi LineNrBelow ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi LineNr ctermfg=NONE ctermbg=NONE cterm=NONE
   hi MatchParen ctermfg=NONE ctermbg=NONE cterm=bold,underline
   hi ModeMsg ctermfg=NONE ctermbg=NONE cterm=bold
   hi MoreMsg ctermfg=darkgreen ctermbg=NONE cterm=NONE
@@ -286,9 +284,7 @@ if s:t_Co >= 8
   hi Identifier ctermfg=darkcyan ctermbg=NONE cterm=NONE
   hi Ignore ctermfg=NONE ctermbg=NONE cterm=NONE
   hi IncSearch ctermfg=black ctermbg=darkyellow cterm=NONE
-  hi LineNr ctermfg=NONE ctermbg=NONE cterm=bold
-  hi LineNrAbove ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi LineNrBelow ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi LineNr ctermfg=NONE ctermbg=NONE cterm=NONE
   hi MatchParen ctermfg=NONE ctermbg=NONE cterm=bold,underline
   hi ModeMsg ctermfg=NONE ctermbg=NONE cterm=bold
   hi MoreMsg ctermfg=darkgreen ctermbg=NONE cterm=NONE
