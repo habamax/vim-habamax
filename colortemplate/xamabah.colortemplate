@@ -104,7 +104,10 @@ QuickFixLine            colorFg        colorQF
  /256+tgc true          omit           omit
  /16/8                  colorBg        colorQF
 CursorLineNr            none           none           bold
-LineNr                  colorNonT      none
+LineNr                  none           none           bold
+LineNrAbove             colorNonT      none
+ /16/8                  none           none
+LineNrBelow             colorNonT      none
  /16/8                  none           none
 NonText                 colorNonT      none
  /8                     none           none
