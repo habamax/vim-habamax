@@ -58,8 +58,12 @@ hi! link lspDiagVirtualTextError Removed
 hi! link lspDiagVirtualTextHint Added
 hi! link lspDiagVirtualTextInfo Question
 hi! link lspDiagVirtualTextWarning Changed
-hi! link markdownHeadingRule Special
+hi! link markdownCodeDelimiter Special
+hi! link markdownHeadingDelimiter Type
+hi! link markdownHeadingRule Type
+hi! link markdownId String
 hi! link markdownLinkText String
+hi! link markdownListMarker PreProc
 hi! link markdownUrl Underlined
 hi! link rstSection htmlH1
 hi! link rubyDefine Statement
