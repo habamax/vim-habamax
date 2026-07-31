@@ -15,7 +15,7 @@ let g:colors_name = 'xamabah'
 let s:t_Co = has('gui_running') ? 16777216 : str2nr(&t_Co)
 let s:tgc = has('termguicolors') && &termguicolors
 
-let g:terminal_ansi_colors = ['#000000', '#af0000', '#005f00', '#875f00', '#005faf', '#870087', '#005f5f', '#dadada', '#767676', '#d70000', '#008700', '#af5f00', '#0087d7', '#af00af', '#008787', '#ffffff']
+let g:terminal_ansi_colors = ['#000000', '#af0000', '#007700', '#875f00', '#005faf', '#870087', '#005f5f', '#dadada', '#767676', '#d70000', '#009700', '#af5f00', '#0087d7', '#af00af', '#008787', '#ffffff']
 
 hi! link CurSearch IncSearch
 hi! link CursorLineFold FoldColumn
@@ -84,7 +84,7 @@ hi Changed guifg=#af5f00 guibg=NONE guisp=NONE gui=NONE ctermfg=130 ctermbg=NONE
 hi ColorColumn guifg=NONE guibg=#e4e4e4 guisp=NONE gui=NONE ctermfg=NONE ctermbg=254 cterm=NONE term=reverse
 hi Comment guifg=#767676 guibg=NONE guisp=NONE gui=NONE ctermfg=243 ctermbg=NONE cterm=NONE term=bold
 hi Conceal guifg=#8a8a8a guibg=NONE guisp=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE term=NONE
-hi Constant guifg=#005f00 guibg=NONE guisp=NONE gui=NONE ctermfg=22 ctermbg=NONE cterm=NONE term=NONE
+hi Constant guifg=#007700 guibg=NONE guisp=NONE gui=NONE ctermfg=22 ctermbg=NONE cterm=NONE term=NONE
 hi Cursor guifg=#ffffff guibg=#000000 guisp=NONE gui=NONE ctermfg=231 ctermbg=16 cterm=NONE term=reverse
 hi CursorColumn guifg=NONE guibg=#e4e4e4 guisp=NONE gui=NONE ctermfg=NONE ctermbg=254 cterm=NONE term=NONE
 hi CursorLine guifg=NONE guibg=#e4e4e4 guisp=NONE gui=NONE ctermfg=NONE ctermbg=254 cterm=NONE term=underline
@@ -105,7 +105,7 @@ hi IncSearch guifg=NONE guibg=#d7d0a7 guisp=NONE gui=NONE ctermfg=130 ctermbg=18
 hi LineNr guifg=#8a8a8a guibg=NONE guisp=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE term=NONE
 hi MatchParen guifg=#ff00af guibg=NONE guisp=NONE gui=bold ctermfg=199 ctermbg=NONE cterm=bold term=bold,underline
 hi ModeMsg guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
-hi MoreMsg guifg=#005f00 guibg=NONE guisp=NONE gui=NONE ctermfg=22 ctermbg=NONE cterm=NONE term=NONE
+hi MoreMsg guifg=#007700 guibg=NONE guisp=NONE gui=NONE ctermfg=22 ctermbg=NONE cterm=NONE term=NONE
 hi NonText guifg=#8a8a8a guibg=NONE guisp=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE term=NONE
 hi Pmenu guifg=NONE guibg=#eeeeee guisp=NONE gui=NONE ctermfg=NONE ctermbg=255 cterm=NONE term=reverse
 hi PmenuBorder guifg=#767676 guibg=#eeeeee guisp=NONE gui=NONE ctermfg=243 ctermbg=255 cterm=NONE term=NONE
