@@ -1,8 +1,5 @@
 ; vim: ft=colortemplate cc=40 vsts=39,4
 ;; default links
-Float                                  -> Number
-Function                               -> Identifier
-Number                                 -> Constant
 Terminal                               -> Normal
 StatusLineTerm                         -> StatusLine
 StatusLineTermNC                       -> StatusLineNC
