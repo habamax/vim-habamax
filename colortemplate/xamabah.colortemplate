@@ -37,7 +37,7 @@ Color: color14          #008787        30             cyan
 Color: color07          #dadada        253            grey
 Color: color15          #ffffff        231            white
 
-Color: colorLine        #e4e4e4        254            grey
+Color: colorLine        #e7e7e7        254            grey
 Color: colorPmenu       #eeeeee        255            grey
 Color: colorPmenuSel    #ffffff        231            grey
 Color: colorB           #e4e4e4        254            grey
@@ -46,7 +46,7 @@ Color: colorFold        #878787        102            grey
 Color: colorlC          #ff5fff        207            magenta
 Color: colorMP          #ff00af        199            magenta
 Color: colorSt          #626262        241            black
-Color: colorStIn        #949494        246            darkgrey
+Color: colorStIn        #808080        244            darkgrey
 Color: colorV           #a0c0e0        66             darkcyan
 Color: colorSrch        #bed7be        22             darkgreen
 Color: colorInc         #d7d0a7        130            yellow

@@ -84,8 +84,8 @@ hi Comment guifg=#767676 guibg=NONE guisp=NONE gui=NONE ctermfg=243 ctermbg=NONE
 hi Conceal guifg=#8a8a8a guibg=NONE guisp=NONE gui=NONE ctermfg=245 ctermbg=NONE cterm=NONE term=NONE
 hi Constant guifg=#af5f00 guibg=NONE guisp=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE term=NONE
 hi Cursor guifg=#ffffff guibg=#000000 guisp=NONE gui=NONE ctermfg=231 ctermbg=16 cterm=NONE term=reverse
-hi CursorColumn guifg=NONE guibg=#e4e4e4 guisp=NONE gui=NONE ctermfg=NONE ctermbg=254 cterm=NONE term=NONE
-hi CursorLine guifg=NONE guibg=#e4e4e4 guisp=NONE gui=NONE ctermfg=NONE ctermbg=254 cterm=NONE term=underline
+hi CursorColumn guifg=NONE guibg=#e7e7e7 guisp=NONE gui=NONE ctermfg=NONE ctermbg=254 cterm=NONE term=NONE
+hi CursorLine guifg=NONE guibg=#e7e7e7 guisp=NONE gui=NONE ctermfg=NONE ctermbg=254 cterm=NONE term=underline
 hi CursorLineNr guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
 hi DiffAdd guifg=NONE guibg=#b7c7b7 guisp=NONE gui=NONE ctermfg=16 ctermbg=108 cterm=NONE term=reverse
 hi DiffChange guifg=NONE guibg=#c7c7b7 guisp=NONE gui=NONE ctermfg=16 ctermbg=250 cterm=NONE term=NONE
@@ -134,10 +134,10 @@ hi SpellLocal guifg=NONE guibg=NONE guisp=#008700 gui=undercurl ctermfg=28 cterm
 hi SpellRare guifg=NONE guibg=NONE guisp=#af00af gui=undercurl ctermfg=127 ctermbg=NONE cterm=underline term=underline
 hi Statement guifg=#870087 guibg=NONE guisp=NONE gui=NONE ctermfg=90 ctermbg=NONE cterm=NONE term=NONE
 hi StatusLine guifg=#d7d7d7 guibg=#626262 guisp=NONE gui=NONE ctermfg=188 ctermbg=241 cterm=NONE term=bold,reverse
-hi StatusLineNC guifg=#d7d7d7 guibg=#949494 guisp=NONE gui=NONE ctermfg=188 ctermbg=246 cterm=NONE term=bold,underline
+hi StatusLineNC guifg=#d7d7d7 guibg=#808080 guisp=NONE gui=NONE ctermfg=188 ctermbg=244 cterm=NONE term=bold,underline
 hi String guifg=#007700 guibg=NONE guisp=NONE gui=NONE ctermfg=22 ctermbg=NONE cterm=NONE term=NONE
-hi TabLine guifg=#d7d7d7 guibg=#949494 guisp=NONE gui=NONE ctermfg=188 ctermbg=246 cterm=NONE term=bold,underline
-hi TabLineFill guifg=#d7d7d7 guibg=#949494 guisp=NONE gui=NONE ctermfg=188 ctermbg=246 cterm=NONE term=NONE
+hi TabLine guifg=#d7d7d7 guibg=#808080 guisp=NONE gui=NONE ctermfg=188 ctermbg=244 cterm=NONE term=bold,underline
+hi TabLineFill guifg=#d7d7d7 guibg=#808080 guisp=NONE gui=NONE ctermfg=188 ctermbg=244 cterm=NONE term=NONE
 hi TabLineSel guifg=#d7d7d7 guibg=#626262 guisp=NONE gui=bold ctermfg=188 ctermbg=241 cterm=bold term=bold,reverse
 hi Title guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=NONE
 hi TitleBar guifg=#000000 guibg=#bcbcbc guisp=NONE gui=NONE ctermfg=16 ctermbg=250 cterm=NONE term=NONE
@@ -148,7 +148,7 @@ hi ToolbarLine guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NO
 hi Type guifg=#005faf guibg=NONE guisp=NONE gui=NONE ctermfg=25 ctermbg=NONE cterm=NONE term=NONE
 hi Underlined guifg=NONE guibg=NONE guisp=NONE gui=underline ctermfg=NONE ctermbg=NONE cterm=underline term=underline
 hi VertSplit guifg=#626262 guibg=#626262 guisp=NONE gui=NONE ctermfg=241 ctermbg=241 cterm=NONE term=NONE
-hi VertSplitNC guifg=#949494 guibg=#949494 guisp=NONE gui=NONE ctermfg=246 ctermbg=246 cterm=NONE term=NONE
+hi VertSplitNC guifg=#808080 guibg=#808080 guisp=NONE gui=NONE ctermfg=244 ctermbg=244 cterm=NONE term=NONE
 hi Visual guifg=NONE guibg=#a0c0e0 guisp=NONE gui=NONE ctermfg=66 ctermbg=254 cterm=reverse term=reverse
 hi VisualNOS guifg=#d7d7d7 guibg=#767676 guisp=NONE gui=NONE ctermfg=188 ctermbg=243 cterm=NONE term=NONE
 hi WarningMsg guifg=#d70000 guibg=NONE guisp=NONE gui=NONE ctermfg=160 ctermbg=NONE cterm=NONE term=standout
