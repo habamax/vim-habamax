@@ -112,8 +112,8 @@ hi PmenuExtra guifg=#767676 guibg=#3a3a3a guisp=NONE gui=NONE ctermfg=243 ctermb
 hi PmenuExtraSel guifg=#9e9e9e guibg=#585858 guisp=NONE gui=NONE ctermfg=247 ctermbg=240 cterm=NONE term=NONE
 hi PmenuKind guifg=#5f8787 guibg=#3a3a3a guisp=NONE gui=NONE ctermfg=66 ctermbg=237 cterm=NONE term=reverse
 hi PmenuKindSel guifg=#5f8787 guibg=#585858 guisp=NONE gui=NONE ctermfg=66 ctermbg=240 cterm=NONE term=NONE
-hi PmenuMatch guifg=#ffaf5f guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE term=NONE
-hi PmenuMatchSel guifg=#ffaf5f guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE term=NONE
+hi PmenuMatch guifg=#dadada guibg=NONE guisp=NONE gui=bold ctermfg=253 ctermbg=NONE cterm=bold term=bold
+hi PmenuMatchSel guifg=#dadada guibg=NONE guisp=NONE gui=bold ctermfg=253 ctermbg=NONE cterm=bold term=bold
 hi PmenuSbar guifg=NONE guibg=#585858 guisp=NONE gui=NONE ctermfg=NONE ctermbg=240 cterm=NONE term=reverse
 hi PmenuSel guifg=NONE guibg=#585858 guisp=NONE gui=NONE ctermfg=NONE ctermbg=240 cterm=NONE term=bold
 hi PmenuShadow guifg=#767676 guibg=#121212 guisp=NONE gui=NONE ctermfg=243 ctermbg=233 cterm=NONE term=NONE

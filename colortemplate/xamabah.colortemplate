@@ -143,10 +143,10 @@ PmenuExtra              color08        colorPmenu
  /16/8                  none           none           reverse
 PmenuExtraSel           color08        colorPmenuSel
  /16/8                  none           none           bold
-PmenuMatch              color11        none
+PmenuMatch              color00        none           bold
  /16/8                  none           none           bold
-PmenuMatchSel           color11        none
- /16/8                  color03        none           bold
+PmenuMatchSel           color00        none           bold
+ /16/8                  none           none           bold
 
 SignColumn              none           none
  /8                     none           none
