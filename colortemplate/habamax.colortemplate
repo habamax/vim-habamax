@@ -41,7 +41,6 @@ Color: colorLine        #303030        236            darkgrey
 Color: colorB           #3a3a3a        237            darkgrey
 Color: colorF           #262626        235            darkgrey
 Color: colorNonT        #585858        240            darkgrey
-Color: colorC           #ffaf5f        215            red
 Color: colorlC          #5fff00        82             green
 Color: colorV           #1a3456        24             cyan
 Color: colorSrch        #374a44        114            green
