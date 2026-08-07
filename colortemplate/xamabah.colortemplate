@@ -227,7 +227,10 @@ SpellRare               color13        none           underline
 ;;; :h group-names
 Comment                 color08        none
  /16/8                  none           none           bold
-Constant                color02        none
+Constant                color11        none
+ /8                     color02        none
+String                  color02        none
+Character               color02        none
 Identifier              color06        none
 
 Statement               color05        none
