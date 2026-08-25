@@ -47,6 +47,7 @@ Color: colorMP          #ff00af        199            magenta
 Color: colorErr         #a03f2f        131            darkred
 Color: colorQF          #4f2f4f        53             magenta
 Color: colorTh          #8a8a8a        245            gray
+Color: colorSb          #444444        238            gray
 
 Color: diffAdd          #273923        22             darkgreen
 Color: diffDelete       #2f1f1a        52             darkred
@@ -132,7 +133,7 @@ PmenuShadow             color08        colorShadow
 /16/8                   none           none
 PmenuThumb              none           colorTh
 /16/8                   none           none
-PmenuSbar               none           colorNonT
+PmenuSbar               none           colorSb
 /16/8                   none           none           reverse
 PmenuSel                none           colorNonT
 /16                     color07        color00
