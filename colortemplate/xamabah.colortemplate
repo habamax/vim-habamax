@@ -52,6 +52,7 @@ Color: colorSrch        #bed7be        22             darkgreen
 Color: colorInc         #d7d0a7        130            yellow
 Color: colorErr         #ff7f8f        197            red
 Color: colorQF          #c7afc7        182            magenta
+Color: colorSb          #c6c6c6        251            gray
 
 ; Diff colors
 Color: diffAdd          #b7c7b7        108            green
@@ -133,7 +134,7 @@ PmenuSel                none           colorPmenuSel
  /16/8                  color03        none           reverse
 PmenuThumb              none           color08
  /16/8                  none           none
-PmenuSbar               none           color07
+PmenuSbar               none           colorSb
  /16/8                  none           none           reverse
 PmenuKind               color06        colorPmenu
  /16/8                  none           none           reverse,bold
