@@ -176,6 +176,7 @@ TitleBar                color15        colorTitle
 TitleBarNC              color08        colorTitleNC
 
 Todo                    color15        none           bold
+/8                      none           none           bold
 MatchParen              colorMP        none           bold
 /8                      none           none           bold,underline
 Search                  colorSrch      color00        reverse
