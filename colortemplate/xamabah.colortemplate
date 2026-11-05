@@ -208,17 +208,13 @@ Folded                  colorFold      colorB
 ColorColumn             none           colorB
  /16/8                  color00        color03
 
-SpellBad                Removed        none           undercurl
-/gui/256+tgc true       none           none           s=Removed undercurl
+SpellBad                none           none           s=Removed undercurl
 /8                      color01        none           reverse
-SpellCap                Changed        none           undercurl
-/gui/256+tgc true       none           none           s=Changed undercurl
+SpellCap                none           none           s=Changed undercurl
 /8                      color03        none           reverse
-SpellLocal              Added          none           undercurl
-/gui/256+tgc true       none           none           s=Added   undercurl
+SpellLocal              none           none           s=Added   undercurl
 /8                      color02        none           reverse
-SpellRare               color13        none           undercurl
-/gui/256+tgc true       none           none           s=color13 undercurl
+SpellRare               none           none           s=color13 undercurl
 /8                      color05        none           reverse
 
 ;;; :h group-names
